@@ -1,0 +1,81 @@
+#define true 1
+#define false 0
+#include "RscDefines.hpp"
+
+author = "by SSG Anhor";
+onLoadName = "VIETNAM 1968";
+onLoadMission= "www.znation.army";
+loadScreen = "custom\start.jpg";
+disableChannels[] = {0, 2};
+OnLoadIntro = "3th February 1968, Nui Dat Camp, Phuoc Tuy Province, Viet Nam";
+OnLoadIntroTime = false;
+OnLoadMissionTime = false;
+
+class Header
+{
+    gameType = Coop; // Do NOT change this
+    minPlayers = 1;
+    maxPlayers = 30;
+};
+
+forceRotorLibSimulation = 2;
+skipLobby = 1;
+joinUnassigned = 0;
+respawn = "BASE";
+respawnDelay = 300;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1;
+respawnTemplates[] = {"Exile"};
+corpseManagerMode = 0;
+corpseLimit = 20;
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 360;
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 300;
+wreckRemovalMaxTime = 360;
+scriptedPlayer = 1;
+disabledAI = 1;
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+allowFunctionsLog = 1;
+enableDebugConsole = 0;
+allowFunctionsRecompile = 0;
+showSquadRadar = 0;
+showUAVFeed = 0;
+reviveDelay = 30;
+reviveForceRespawnDelay = 5;
+reviveBleedOutDelay = 300;
+
+showHUD[] = 
+{
+    true,		// Scripted HUD (same as showHUD command)
+    true,		// Vehicle + soldier info
+    true,		// Vehicle radar 
+    true,		// Vehicle compass
+    true,		// Tank direction indicator
+    true,		// Commanding menu
+    false,		// Group Bar
+    true,		// HUD Weapon Cursors
+    false		// Squad Radar
+};
+
+#include "config.cpp"					//Exile
+
+#include "CfgRemoteExec.hpp"			//infiSTAR
+#include "infiSTAR_defines.hpp"			//infiSTAR
+#include "infiSTAR_AdminMenu.hpp"		//infiSTAR
+#include "infiSTAR_chat.hpp"			//infiSTAR
+#include "infiSTAR_KeyBinds.hpp"		//infiSTAR
+
+#include "R3F_LOG\desc_include.h"		//Lift and Tow
+
+class CfgSounds
+{
+	class Gibbon1{name = "Gibbon1";sound[] = {"GF_Ambient_Environment_Sounds\Sounds\Birds_day\Gibbon1.ogg", db0, 1.0};titles[] = {};};
+	class Gibbon2{name = "Gibbon2";sound[] = {"GF_Ambient_Environment_Sounds\Sounds\Birds_day\Gibbon2.ogg", db0, 1.0};titles[] = {};};
+	class Owl1{name = "Owl1";sound[] = {"GF_Ambient_Environment_Sounds\Sounds\Birds_night\Owl1.ogg", db0, 1.0};titles[] = {};};
+	class Owl2{name = "Owl2";sound[] = {"GF_Ambient_Environment_Sounds\Sounds\Birds_night\Owl2.ogg", db-2, 1.0};titles[] = {};};
+};

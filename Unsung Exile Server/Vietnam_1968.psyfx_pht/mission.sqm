@@ -1,0 +1,777 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID = 116;
+	};
+	class MarkerIDProvider
+	{
+		nextID = 15;
+	};
+};
+
+addons[] = {"exile_client","A3_Ui_F"};
+
+class AddonsMetaData
+{
+	class List
+	{
+		items = 2;
+		class Item0
+		{
+			className = "exile_client";
+			name = "exile_client";
+		};
+		class Item1
+		{
+			className = "A3_Ui_F";
+			name = "Arma 3 - User Interface";
+			author = "Bohemia Interactive";
+			url = "http://www.arma3.com";
+		};
+	};
+};
+
+randomSeed=12573600;
+
+class ScenarioData
+{
+	author="SSG Anhor";
+};
+
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather=0.30000001;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 1968;
+		month = 1;
+		day = 21;
+		hour = 12;
+		minute = 0;
+		startFogBase = 5.0;
+		forecastFogBase = 5.0;
+		startFogDecay = 0.014;
+		forecastFogDecay = 0.014;
+	};
+	class Entities
+	{
+		items = 24;
+
+		class Item0
+		{
+			dataType = "Group";
+			side = "Independent";
+			class Entities
+			{
+				items = 30;
+				class Item0
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7500};
+					};
+					side = "Independent";
+					flags = 7;
+					class Attributes
+					{
+						isPlayer = 1;
+					};
+					id = 1;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item1
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7500};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 2;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item2
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7500};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 3;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item3
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7500};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 4;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item4
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7540,0,7500};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 5;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item5
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7550,0,7500};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 6;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item6
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7510};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 7;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item7
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7520};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 8;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item8
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7530};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 9;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item9
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7540};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 10;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item10
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7500,0,7550};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 11;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item11
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7510};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 12;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = 2.3841858e-007;
+				};
+				class Item12
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7520};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 13;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item13
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7530};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 14;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item14
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7540};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 15;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item15
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7510,0,7550};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 16;
+					type = "Exile_Unit_GhostPlayer";
+					atlOffset = -4.7683716e-007;
+				};
+				class Item16
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7510};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 17;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item17
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7520};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 18;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item18
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7530};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 19;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item19
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7540};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 20;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item20
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7520,0,7550};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 21;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item21
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7510};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 22;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item22
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7520};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 23;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item23
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7530};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 24;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item24
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7540};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 25;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item25
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7530,0,7550};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 26;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item26
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7540,0,7510};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 27;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item27
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7540,0,7520};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 28;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item28
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7540,0,7530};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 29;
+					type = "Exile_Unit_GhostPlayer";
+				};
+				class Item29
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {7540,0,7540};
+					};
+					side = "Independent";
+					flags = 5;
+					class Attributes{isPlayer = 1;};
+					id = 30;
+					type = "Exile_Unit_GhostPlayer";
+				};
+			};
+			class Attributes{};
+			id = 0;
+		};
+
+	    class Item1
+	    {
+	        dataType = "Marker";
+	        position[] = {6987, 0, 10166};
+	        name = "ExileMarker01";
+	        text = "";
+	        markerType = "ELLIPSE";
+	        type = "ExileTraderZone";
+	        colorName = "ColorWhite";
+			alpha = 0;
+	        fillName = "Border";
+	        a = 3;
+	        b = 3;
+	        drawBorder = 1;
+	        id = 101;
+	        atlOffset = 0;
+	    };
+		class Item2
+	    {
+	        dataType = "Marker";
+	        position[] = {6987, 0, 10166};
+	        name = "ExileMarker02";
+	        text = "MACV Trader";
+	        type = "mil_pickup";
+			colorName = "ColorWhite";
+	        id = 102;
+	        atlOffset = 0;
+	    };
+		class Item3
+	    {
+	        dataType = "Marker";
+	        position[] = {5534, 0, 5945};
+	        name = "ExileMarker03";
+	        text = "Boat Trader";
+	        type = "mil_pickup";
+			colorName = "ColorWhite";
+	        id = 103;
+	        atlOffset = 0;
+	    };
+		class Item4
+	    {
+	        dataType = "Marker";
+	        position[] = {10267, 0, 12927};
+	        name = "ExileMarker04";
+	        text = "Roulette";
+	        type = "mil_pickup";
+			colorName = "ColorWhite";
+	        id = 104;
+	        atlOffset = 0;
+	    };
+		class Item5
+	    {
+	        dataType = "Marker";
+	        position[] = {1853, 0, 13674};
+	        name = "ExileMarker05";
+	        text = "DZ North West";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 105;
+	        atlOffset = 0;
+	    };
+		class Item6
+	    {
+	        dataType = "Marker";
+	        position[] = {11732, 0, 12968};
+	        name = "ExileMarker06";
+	        text = "DZ North East";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 106;
+	        atlOffset = 0;
+	    };
+		class Item7
+	    {
+	        dataType = "Marker";
+	        position[] = {3128, 0, 2278};
+	        name = "ExileMarker07";
+	        text = "DZ South West";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 107;
+	        atlOffset = 0;
+	    };
+		class Item8
+	    {
+	        dataType = "Marker";
+	        position[] = {13663, 0, 7216};
+	        name = "ExileMarker08";
+	        text = "DZ South East";
+	        markerType = "ELLIPSE";
+	        type = "ExileSpawnZone";
+	        colorName = "ColorBlack";
+	        alpha = 0;
+	        fillName = "Border";
+	        a = 472.33;
+	        b = 472.33;
+	        drawBorder = 1;
+	        id = 108;
+	        atlOffset = 0;
+	    };
+		class Item9
+	    {
+	        dataType = "Marker";
+	        position[] = {6823, 0, 7219};
+	        name = "ExileMarker09";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 1500;
+	        b = 1500;
+	        drawBorder = 1;
+	        id = 109;
+	        atlOffset = 0;
+	    };
+		class Item10
+	    {
+	        dataType = "Marker";
+	        position[] = {3556, 0, 1856};
+	        name = "ExileMarker10";
+	        text = "Non-Construction Zone";
+	        markerType = "ELLIPSE";
+	        type = "ExileNonConstructionZone";
+	        colorName = "ColorBlack";
+	        fillName = "Border";
+	        alpha = 0;
+	        a = 1000;
+	        b = 1000;
+	        drawBorder = 1;
+	        id = 110;
+	        atlOffset = 0;
+	    };
+		class Item11
+	    {
+	        dataType = "Marker";
+	        position[] = {6999, 0, 7456};
+	        name = "ExileMarker11";
+	        text = "Aircraft Trader";
+	        type = "mil_pickup";
+			colorName = "ColorWhite";
+	        id = 111;
+	        atlOffset = 0;
+	    };
+		class Item12
+	    {
+	        dataType = "Marker";
+	        position[] = {1545, 0, 13642};
+	        name = "ExileMarker12";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 112;
+	        atlOffset = 0;
+	    };
+		class Item13
+	    {
+	        dataType = "Marker";
+	        position[] = {11598, 0, 12852};
+	        name = "ExileMarker13";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 113;
+	        atlOffset = 0;
+	    };
+		class Item14
+	    {
+	        dataType = "Marker";
+	        position[] = {13841, 0, 10638};
+	        name = "ExileMarker14";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 114;
+	        atlOffset = 0;
+	    };
+		class Item15
+	    {
+	        dataType = "Marker";
+	        position[] = {6480, 0, 10435};
+	        name = "ExileMarker15";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 115;
+	        atlOffset = 0;
+	    };
+		class Item16
+	    {
+	        dataType = "Marker";
+	        position[] = {3425, 0, 9502};
+	        name = "ExileMarker16";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 116;
+	        atlOffset = 0;
+	    };
+		class Item17
+	    {
+	        dataType = "Marker";
+	        position[] = {3376, 0, 5978};
+	        name = "ExileMarker17";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 117;
+	        atlOffset = 0;
+	    };
+		class Item18
+	    {
+	        dataType = "Marker";
+	        position[] = {8333, 0, 6030};
+	        name = "ExileMarker18";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 118;
+	        atlOffset = 0;
+	    };
+		class Item19
+	    {
+	        dataType = "Marker";
+	        position[] = {12554, 0, 7709};
+	        name = "ExileMarker19";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 119;
+	        atlOffset = 0;
+	    };
+		class Item20
+	    {
+	        dataType = "Marker";
+	        position[] = {13646, 0, 7133};
+	        name = "ExileMarker20";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 120;
+	        atlOffset = 0;
+	    };
+		class Item21
+	    {
+	        dataType = "Marker";
+	        position[] = {7481, 0, 4534};
+	        name = "ExileMarker21";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 121;
+	        atlOffset = 0;
+	    };
+		class Item22
+	    {
+	        dataType = "Marker";
+	        position[] = {6778, 0, 7163};
+	        name = "ExileMarker22";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 122;
+	        atlOffset = 0;
+	    };
+		class Item23
+	    {
+	        dataType = "Marker";
+	        position[] = {3458, 0, 1708};
+	        name = "ExileMarker23";
+	        text = "Mil Base";
+	        type = "flag_USA";
+			colorName = "ColorWhite";
+	        id = 123;
+	        atlOffset = 0;
+	    };
+	};
+};

@@ -51,12 +51,15 @@
 // Weapons & Attachments
 ///////////////////////////////////////////////////////////////////////////////
 
-> Pistols
+> USPistols
 15, uns_mkvFlarePistol  	// Unsung MKV Flare Pistol
 15, uns_MX991_m1911 // Unsung M1911 / flashlight
 15, uns_m1911 // Unsung Colt M1911
 
-> PistolAmmo
+> VcPistols
+
+
+> USPistolAmmo
 15, uns_m1911SDmag //Unsung 1911 MAG1
 15, uns_m1911mag // Unsung 1911 MAG2
 15, uns_40mm_mkv_White // Unsung MKV Flare Pistol MAG1
@@ -68,18 +71,28 @@
 15, uns_1Rnd_SmokeRed_MKV // Unsung MKV Flare Pistol MAG7
 15, uns_1Rnd_Smokeyellow_MKV // Unsung MKV Flare Pistol MAG8
 
-> PistolAttachments
+> VcPistolAmmo
+
+
+> USPistolAttachments
 1, uns_s_M1911 // Unsung M1911 Suppressor
 
->SMG
+> VcPistolAttachments
+
+
+> USSMG
 15, uns_thompson // Unsung M1928A1 Thompson
 
->SMGAmmo
+> VcSMG
+
+> USSMGAmmo
 15, uns_thompsonmag_30 // Unsung M1928A1 Thompson MAG1
 15, uns_thompsonmag_30_T // Unsung M1928A1 Thompson MAG2
 15, uns_thompsonmag_30_NT // Unsung M1928A1 Thompson MAG3
 
-> Rifles
+> VcSMGAmmo
+
+> USRifles
 15, uns_M16A1		// Unsung M16A1
 15, uns_XM177E1 // Unsung XM-177E1 Colt Commando
 15, uns_XM177E2 // Unsung XM-177E2 Colt Commando
@@ -87,7 +100,9 @@
 15, uns_m1garand // Unsung M-1 Garand
 15, uns_m1carbine // Unsung M-1 Carbine
 
-> RifleAmmo
+> VcRifles
+
+> USRifleAmmo
 15, uns_20Rnd_556x45_Stanag // Unsung M16A1/XM177 20round MAG1
 15, uns_20Rnd_556x45_Stanag_T // Unsung M16A1/XM177 20round MAG2
 15, uns_30Rnd_556x45_Stanag // Unsung M16A1/XM177 30round MAG3
@@ -103,7 +118,10 @@
 15, uns_m1carbinemag_T // Unsung M-1 Carbine MAG2
 15, uns_m1carbinemag_NT // Unsung M-1 Carbine MAG3
 
-> RifleAttachments
+> VcRifleAmmo
+
+
+> USRifleAttachments
 15, uns_s_M16 // Unsung M16 Suppressor
 15, uns_s_M14 // Unsung M14 Suppressor
 15, uns_o_LeatherwoodART // Unsung M16/M14 Letherwood Scope
@@ -112,31 +130,49 @@
 15, uns_o_RedfieldART // Unsung M16A1 Scope
 15, uns_o_Unertl8x // Unsung M-14 Scope
 
+> VcRifleAttachments
 
-> LMG
+
+> USLMG
 15, uns_m60 // Unsung M-60 MG
 15, uns_bar // Unsung M-1918 BAR
 
-> LMGAmmo
+> VcLMG
+
+
+> USLMGAmmo
 15, uns_m60mag // Unsung M-60 100round MAG1
 15, uns_m60mag_200 // Unsung M-60 200round MAG2
 15, uns_barmag // Unsung M-1918 BAR MAG1
 15, uns_barmag_T // Unsung M-1918 BAR MAG2
 15, uns_barmag_NT // Unsung M-1918 BAR MAG3
 
-> LMGAttachments
+> VcLMGAmmo
+
+
+> USLMGAttachments
 15, uns_bp_M60 // Unsung M-60 MG Bipod
 
+> VcLMGAttachments
 
-> Snipers
+
+> USSnipers
 15, uns_model70 // Unsung Winchester Model 70 Sniper Rifle
 
-> SniperAmmo
+> VcSnipers
+
+
+> USSniperAmmo
 15, uns_model70mag // Unsung Winchester Model 70 MAG1
 15, uns_model70mag_T // Unsung Winchester Model 70 MAG2
 
-> SniperAttachments
+> VcSnipersAmmo
+
+
+> USSniperAttachments
 15, uns_o_Unertl8x // Unsung Winchester Model 70 Scope
+
+> VcSniperAttachments
 
 
 > HandGrenades
@@ -180,6 +216,8 @@
 15, UNS_USMC_LERDL // Unsung USMC Lime ERDL BDU
 15, UNS_JPilot_BDU // Unsung Jet Pilot Flightsuit
 15, UNS_Pilot_BDU // Unsung Helicopter Pilot Flightsuit
+
+> VcClothing
 15, UNS_VC_S // Unsung VC Uniforms
 15, UNS_VC_U // Unsung VC Uniforms
 15, UNS_NVA_G // Unsung VC Uniforms
@@ -225,6 +263,18 @@
 15, UNS_TROP_R2	// Unsung Tropical Rucksack 2
 15, UNS_TROP_R3	// Unsung Tropical Rucksack 3
 
+> VcBackpacks
+15, UNS_NVA_RTO // Unsung VC Backpacks
+15, UNS_NVA_RPG // Unsung VC Backpacks
+15, UNS_NVA_MED // Unsung VC Backpacks
+15, UNS_NVA_R1 // Unsung VC Backpacks
+15, UNS_NVA_RC // Unsung VC Backpacks
+15, UNS_NVA_RTO // Unsung VC Backpacks
+15, UNS_NVA_RPG // Unsung VC Backpacks
+15, UNS_NVA_MED // Unsung VC Backpacks
+15, UNS_NVA_R1 // Unsung VC Backpacks
+15, UNS_NVA_RC // Unsung VC Backpacks
+
 
 > MilitaryVests
 15, UNS_JP_Vest // Unsung Life Preserver Vest
@@ -266,6 +316,8 @@
 15, UNS_M1956_S2 // Unsung SOG Web Gear 2
 15, UNS_M1956_S3 // Unsung SOG Web Gear 3
 15, UNS_M1956_S4 // Unsung SOG Web Gear 4
+
+> VcVests
 15, UNS_VC_A1 // Unsung VC Vests
 15, UNS_VC_A2 // Unsung VC Vests
 15, UNS_VC_A3 // Unsung VC Vests
@@ -363,6 +415,8 @@
 15, UNS_Headband_OD2	// Unsung Headband OD 2
 15, UNS_Headband_ED	// Unsung Headband ERDL
 15, UNS_Headband_BK	// Unsung Headband Black
+
+> VcHeadgear
 15, UNS_Headband_VC // Unsung VC Headgear
 15, UNS_Conehat_VC // Unsung VC Headgear
 15, UNS_Boonie_VC // Unsung VC Headgear

@@ -1,11 +1,11 @@
 /*
-	________   _______ _      ______    __  __  ____  _____  
-	|  ____\ \ / /_   _| |    |  ____|  |  \/  |/ __ \|  __ \ 
+	________   _______ _      ______    __  __  ____  _____
+	|  ____\ \ / /_   _| |    |  ____|  |  \/  |/ __ \|  __ \
 	| |__   \ V /  | | | |    | |__     | \  / | |  | | |  | |
 	|  __|   > <   | | | |    |  __|    | |\/| | |  | | |  | |
 	| |____ / . \ _| |_| |____| |____   | |  | | |__| | |__| |
-	|______/_/ \_\_____|______|______|  |_|  |_|\____/|_____/ 
-                                                          
+	|______/_/ \_\_____|______|______|  |_|  |_|\____/|_____/
+
   	^ Leet ASCII art. For documentation, refer to:
 
   	http://www.exilemod.com/wiki/developer-toolbox/loot-table-compiler/
@@ -19,20 +19,19 @@
 1, Restraints
 3, PistolAttachments
 3, ShotgunAmmo
-3, SMGAmmo
-3, SMGAttachments
-4, Shotguns
-4, SMG
-5, CivilianVests
-5, PistolAmmo
-8, Pistols
+3, USSMGAmmo
+3, USSMGAttachments
+//4, Shotguns
+4, USSMG
+5, VcClothing
+5, VcBackpacks
+5, VcVests
+5, VcHeadgear
+5, USPistolAmmo
+8, USPistols
 10, Chemlights
-10, CivilianItems
 10, Drinks
 10, RoadFlares
-11, CivilianBackpacks
-20, CivilianClothing
-20, CivilianHeadgear
 28, Food
 30, Trash
 
@@ -41,25 +40,21 @@
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianUpperClass
 1, Restraints
-3, PistolAttachments
-3, RifleAmmo
-3, RifleAttachments
+3, USPistolAttachments
+3, USRifleAmmo
+3, USRifleAttachments
 3, Rifles
-3, ShotgunAmmo
-3, SMGAmmo
-3, SMGAttachments
-4, Shotguns
-4, SMG
+//3, ShotgunAmmo
+3, USSMGAmmo
+3, USSMGAttachments
+//4, Shotguns
+4, USSMG
 5, CivilianVests
-5, PistolAmmo
-8, Pistols
-10, Chemlights
-10, CivilianItems
+5, USPistolAmmo
+8, USPistols
+//10, Chemlights
 10, Drinks
 10, RoadFlares
-11, CivilianBackpacks
-20, CivilianClothing
-20, CivilianHeadgear
 28, Food
 30, Trash
 
@@ -67,28 +62,24 @@
 // Kiosks, Supermarkets etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Shop
-1, CivilianClothing
-1, CivilianVests
-1, PistolAttachments
-1, ShotgunAmmo
-1, SMGAmmo
-1, SMGAttachments
-2, PistolAmmo
-3, CivilianHeadgear
+1, USPistolAttachments
+//1, ShotgunAmmo
+1, USSMGAmmo
+1, USSMGAttachments
+2, USPistolAmmo
 3, IndustrialItems
 3, MedicalItems
 3, Restraints
-4, Shotguns
+//4, Shotguns
 4, SmokeGrenades
 5, Chemlights
-5, CivilianBackpacks
+5,
 5, RoadFlares
-5, SMG
-7, CivilianItems
-10, Pistols
+5, USSMG
+10, USPistols
 15, Drinks
 15, Food
-30, Trash
+20, Trash
 
 ///////////////////////////////////////////////////////////////////////////////
 // Construction Sites, Warehouses, Research etc.
@@ -122,88 +113,81 @@
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Military
-1, DLCGhillies
-1, Ghillies
+//1, DLCGhillies
+//1, Ghillies
 1, Rebreathers
-2, Bipods
-2, DLCAmmo
-2, DLCOptics
-2, DLCSupressor
-2, LMGAmmo
+//2, Bipods
+//2, DLCAmmo
+//2, DLCOptics
+//2, DLCSupressor
+2, USLMGAmmo
 2, MedicalItems
 2, Restraints
-2, SniperAmmo
-2, SniperAttachments
-3, DLCRifles
-3, DLCVests
-3, GuerillaHeadgear
-3, GuerillaVests
+2, USSniperAmmo
+2, USSniperAttachments
+//3, DLCRifles
+//3, DLCVests
 3, HandGrenades
 3, HEGrenades
 3, MilitaryBackpacks
 3, MilitaryHeadgear
 3, MilitaryVests
-3, RifleAmmo
-3, RifleAttachments
+3, USRifleAmmo
+3, USRifleAttachments
 3, SmokeGrenades
-3, Snipers
+3, USSnipers
 3, UGLFlares
-3, UGLSmokes
-4, CivilianItems
-4, GuerillaBackpacks
-4, GuerillaItems
-4, LMG
+//3, UGLSmokes
+4, USLMG
 5, Explosives
-5, GuerillaClothing
 5, MilitaryClothing
-5, Rifles
-100, Trash
+5, USRifles
+20, Trash
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
 ///////////////////////////////////////////////////////////////////////////////
 > Medical
 3, Trash
-7, MedicalItems
+10, MedicalItems
 
 ///////////////////////////////////////////////////////////////////////////////
 // Light Houses + Life Guard Towers + Castles
 ///////////////////////////////////////////////////////////////////////////////
 > Tourist
-1, DLCAmmo
-1, DLCOptics
-1, DLCSupressor
-1, SniperAmmo
-1, SniperAttachments
-2, CivilianItems
+//1, DLCAmmo
+//1, DLCOptics
+//1, DLCSupressor
+1, USSniperAmmo
+1, USSniperAttachments
 2, Explosives
 2, HandGrenades
 2, MedicalItems
 2, Restraints
-3, DLCGhillies
-3, Ghillies
+//3, DLCGhillies
+//3, Ghillies
 4, MilitaryBackpacks
 4, MilitaryHeadgear
 8, DLCRifles
-8, Snipers
+8, USSnipers
 
 ///////////////////////////////////////////////////////////////////////////////
 // Ghost Hotel Buildings
 ///////////////////////////////////////////////////////////////////////////////
 > Radiation
-1, DLCAmmo
-1, DLCOptics
-1, DLCSupressor
-1, SniperAmmo
-1, SniperAttachments
+//1, DLCAmmo
+//1, DLCOptics
+//1, DLCSupressor
+1, USSniperAmmo
+1, USSniperAttachments
 2, EpicWeapons
 2, HandGrenades
 2, MedicalItems
 2, Restraints
-3, DLCGhillies
-3, Ghillies
+//3, DLCGhillies
+//3, Ghillies
 5, Explosives
 5, MilitaryBackpacks
 5, MilitaryHeadgear
-5, DLCRifles
-5, Snipers
+//5, DLCRifles
+5, USSnipers

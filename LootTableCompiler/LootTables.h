@@ -19,16 +19,16 @@
 1, Restraints
 3, PistolAttachments
 3, ShotgunAmmo
-3, USSMGAmmo
-3, USSMGAttachments
+3, USattachments
 //4, Shotguns
-4, USSMG
+4, USpistols
+5, USammo
 5, VcClothing
 5, VcBackpacks
 5, VcVests
 5, VcHeadgear
-5, USPistolAmmo
-8, USPistols
+8, VCpistols
+8, VCammo
 10, Chemlights
 10, Drinks
 10, RoadFlares
@@ -40,18 +40,16 @@
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianUpperClass
 1, Restraints
-3, USPistolAttachments
-3, USRifleAmmo
-3, USRifleAttachments
-3, Rifles
+3, USattachments
+3, VCattachments
+3, VCrifles
+3, VCammo
 //3, ShotgunAmmo
-3, USSMGAmmo
-3, USSMGAttachments
 //4, Shotguns
-4, USSMG
+4, USrifles
+4, USammo
 5, CivilianVests
-5, USPistolAmmo
-8, USPistols
+5, USpistols
 //10, Chemlights
 10, Drinks
 10, RoadFlares
@@ -62,10 +60,10 @@
 // Kiosks, Supermarkets etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Shop
-1, USPistolAttachments
+1, USattachments
 //1, ShotgunAmmo
-1, USSMGAmmo
-1, USSMGAttachments
+1, USammo
+1, USlmg
 2, USPistolAmmo
 3, IndustrialItems
 3, MedicalItems
@@ -73,9 +71,10 @@
 //4, Shotguns
 4, SmokeGrenades
 5, Chemlights
-5,
+5, USrifles
 5, RoadFlares
-5, USSMG
+5, VCrifles
+5, VCammo
 10, USPistols
 15, Drinks
 15, Food
@@ -113,36 +112,35 @@
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Military
+5, USpistols
+6, USrifles
+6, USlmg
+5, USsnipers
+5, USattachments
+6, USammo
+5, UStraps
+5, HandGrenades
+5, Explosives
+
 //1, DLCGhillies
 //1, Ghillies
-1, Rebreathers
+//1, Rebreathers
 //2, Bipods
 //2, DLCAmmo
 //2, DLCOptics
 //2, DLCSupressor
-2, USLMGAmmo
-2, MedicalItems
-2, Restraints
-2, USSniperAmmo
-2, USSniperAttachments
+5, MedicalItems
+5, Restraints
 //3, DLCRifles
 //3, DLCVests
-3, HandGrenades
-3, HEGrenades
-3, MilitaryBackpacks
-3, MilitaryHeadgear
-3, MilitaryVests
-3, USRifleAmmo
-3, USRifleAttachments
-3, SmokeGrenades
-3, USSnipers
-3, UGLFlares
+5, MilitaryBackpacks
+5, MilitaryHeadgear
+5, MilitaryVests
+5, SmokeGrenades
+//3, UGLFlares
 //3, UGLSmokes
-4, USLMG
-5, Explosives
 5, MilitaryClothing
-5, USRifles
-20, Trash
+5, Trash
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -158,8 +156,8 @@
 //1, DLCAmmo
 //1, DLCOptics
 //1, DLCSupressor
-1, USSniperAmmo
-1, USSniperAttachments
+1, USammo
+1, USattachments
 2, Explosives
 2, HandGrenades
 2, MedicalItems
@@ -169,7 +167,7 @@
 4, MilitaryBackpacks
 4, MilitaryHeadgear
 8, DLCRifles
-8, USSnipers
+8, USsnipers
 
 ///////////////////////////////////////////////////////////////////////////////
 // Ghost Hotel Buildings
@@ -178,8 +176,8 @@
 //1, DLCAmmo
 //1, DLCOptics
 //1, DLCSupressor
-1, USSniperAmmo
-1, USSniperAttachments
+1, USammo
+1, USattachments
 2, EpicWeapons
 2, HandGrenades
 2, MedicalItems
@@ -190,4 +188,4 @@
 5, MilitaryBackpacks
 5, MilitaryHeadgear
 //5, DLCRifles
-5, USSnipers
+5, USsnipers

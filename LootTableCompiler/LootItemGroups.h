@@ -51,129 +51,317 @@
 // Weapons & Attachments
 ///////////////////////////////////////////////////////////////////////////////
 
-> USPistols
-15, uns_mkvFlarePistol  	// Unsung MKV Flare Pistol
-15, uns_MX991_m1911 // Unsung M1911 / flashlight
-15, uns_m1911 // Unsung Colt M1911
+> USpistols
+15, uns_mkvFlarePistol
+15, uns_MX991_w
+15, uns_MX991_g
+15, uns_MX991_m1911
+15, uns_38spec
+15, uns_sw_m10
+15, uns_m1911
+15, uns_coltcmdr
 
-> VcPistols
+> VCpistols
+15, uns_mkvFlarePistol
+15, uns_MX991_w
+15, uns_nagant_m1895
+15, uns_p64
+15, uns_makarov
+15, uns_Tt33
+15, uns_tt30
 
-
-> USPistolAmmo
-15, uns_m1911SDmag //Unsung 1911 MAG1
-15, uns_m1911mag // Unsung 1911 MAG2
-15, uns_40mm_mkv_White // Unsung MKV Flare Pistol MAG1
-15, uns_40mm_mkv_Red // Unsung MKV Flare Pistol MAG2
-15, uns_40mm_mkv_Yellow // Unsung MKV Flare Pistol MAG3
-15, uns_40mm_mkv_Green // Unsung MKV Flare Pistol MAG4
-15, uns_1Rnd_Smoke_MKV // Unsung MKV Flare Pistol MAG5
-15, uns_1Rnd_SmokeGreen_MKV // Unsung MKV Flare Pistol MAG6
-15, uns_1Rnd_SmokeRed_MKV // Unsung MKV Flare Pistol MAG7
-15, uns_1Rnd_Smokeyellow_MKV // Unsung MKV Flare Pistol MAG8
-
-> VcPistolAmmo
-
-
-> USPistolAttachments
-1, uns_s_M1911 // Unsung M1911 Suppressor
-
-> VcPistolAttachments
-
-
-> USSMG
+> USrifles
+15, uns_m3a1
+15, uns_ithaca37
+15, uns_m1897riot
+15, uns_m1897
+15, uns_model12
+15, uns_m16
+15, uns_m16_m203
+15, uns_m16_xm148
+15, uns_m79
+15, uns_uzif
+15, uns_uzi
+15, uns_M16A1
+15, uns_M16A1_HBAR
+15, uns_m16a1_m203
+15, uns_xm177e1
+15, uns_xm177e1_m203
+15, uns_xm177e1_xm148
+15, uns_xm177e2
+15, uns_xm177e2_grip
+15, uns_xm177e2_short
+15, uns_xm177e2_stock
+15, uns_xm177e2_m203
 15, uns_thompson // Unsung M1928A1 Thompson
 
-> VcSMG
+> VCrifles
+15, uns_pm63f
+15, uns_sa61f
+15, uns_thompsonvc
+15, uns_type100
+15, uns_mat49
+15, uns_PPS43f
+15, uns_PPS43
+15, uns_PPS52
+15, uns_k50m
+15, uns_k50mdrum
+15, uns_ppsh41
+15, uns_type50
+15, uns_mp40
+15, uns_baikal_sawnoff
+15, uns_baikal
 
-> USSMGAmmo
-15, uns_thompsonmag_30 // Unsung M1928A1 Thompson MAG1
-15, uns_thompsonmag_30_T // Unsung M1928A1 Thompson MAG2
-15, uns_thompsonmag_30_NT // Unsung M1928A1 Thompson MAG3
+> USlmg
+15, uns_m60 // Unsung M-60 MG
+15, uns_m60support
+15, uns_bar // Unsung M-1918 BAR
 
-> VcSMGAmmo
+> VClmg
+15, uns_rpd
+15, uns_RPDsupport
+15, uns_DP28
+15, uns_MG42
+15, uns_mg42_bakelite
+15, uns_MG42support
 
-> USRifles
-15, uns_M16A1		// Unsung M16A1
-15, uns_XM177E1 // Unsung XM-177E1 Colt Commando
-15, uns_XM177E2 // Unsung XM-177E2 Colt Commando
-15, uns_m14 // Unsung M-14 Rifle
-15, uns_m1garand // Unsung M-1 Garand
-15, uns_m1carbine // Unsung M-1 Carbine
+> USsnipers
+15, uns_model70 // Unsung Winchester Model 70 Sniper Rifle
+15, uns_m14
+15, uns_model70_iron
+15, uns_m1carbine
+15, uns_m1carbine_pouch
+15, uns_m1carbine_gl
+15, uns_m2carbine
+15, uns_m2carbine_gl
+15, uns_m3carbine
+15, uns_m1garand
+15, uns_M40_base
 
-> VcRifles
+> VCsnipers
+15, uns_mas4956	// Unsung MAS-49/56
+15, uns_SVD	// Unsung SVD Dragunov
+15, uns_type99 // Unsung Arisaka Type 99
+15, uns_STG_44
+15, uns_svt
+15, uns_sks
+15, uns_kar98k
+15, uns_mosin
+15, uns_type99_gl
+15, uns_mas36
+15, uns_mas36_gl
+15, uns_mas36short
+15, uns_mas36short_gl
+15, uns_mas4956_gl
+15, uns_type56
+15, uns_ak47
+15, uns_aks47f
+15, uns_aks47
+15, uns_ak47_49
+15, uns_ak47_52
+15, uns_akm
+15, uns_akms
+15, uns_akmsf
 
-> USRifleAmmo
-15, uns_20Rnd_556x45_Stanag // Unsung M16A1/XM177 20round MAG1
-15, uns_20Rnd_556x45_Stanag_T // Unsung M16A1/XM177 20round MAG2
-15, uns_30Rnd_556x45_Stanag // Unsung M16A1/XM177 30round MAG3
-15, uns_30Rnd_556x45_Stanag_T // Unsung M16A1/XM177 30round MAG4
-15, uns_20Rnd_556x45_StanagSD // Unsung M16A1/XM177 20round MAG5
-15, uns_30Rnd_556x45_StanagSD // Unsung M16A1/XM177 30round MAG6
-15, uns_m14mag // Unsung M-14 MAG1
-15, uns_m14mag_T // Unsung M-14 MAG2
-15, uns_m14mag_NT // Unsung M-14 MAG3
-15, uns_garandmag // Unsung M-1 Garand MAG1
-15, uns_garandmag_T // Unsung M-1 Garand MAG2
-15, uns_m1carbinemag // Unsung M-1 Carbine MAG1
-15, uns_m1carbinemag_T // Unsung M-1 Carbine MAG2
-15, uns_m1carbinemag_NT // Unsung M-1 Carbine MAG3
-
-> VcRifleAmmo
-
-
-> USRifleAttachments
+> USattachments
+15, uns_o_Unertl8x // Unsung Winchester Model 70 Scope
+15, uns_bp_M60 // Unsung M-60 MG Bipod
 15, uns_s_M16 // Unsung M16 Suppressor
 15, uns_s_M14 // Unsung M14 Suppressor
 15, uns_o_LeatherwoodART // Unsung M16/M14 Letherwood Scope
+15, uns_o_LeatherwoodART_m14
+15, uns_o_LeatherwoodART_m16
 15, uns_o_ANPVS2 // Unsung M16/M14 Starlight Scope
 15, uns_o_colt4x // Unsung Colt 4x Scope
 15, uns_o_RedfieldART // Unsung M16A1 Scope
-15, uns_o_Unertl8x // Unsung M-14 Scope
+15, uns_s_M1911 // Unsung M1911 Suppressor
+15, uns_b_m70_camo
+15, uns_b_m40_camo
+15, uns_b_smle_camo
+15, uns_BA30
+15, uns_BA30_green
+15, uns_b_m1
+15, uns_b_m4
+15, uns_b_m6
+15, uns_b_m7
+15, uns_b_m1917
+15, uns_o_M84
+15, uns_o_RedfieldART_m70
+15, uns_o_Unertl8x_m70
 
-> VcRifleAttachments
+> VCattachments
+15, uns_o_APXSOM // Unsung MAS-49/56 Scope
+15, uns_o_PSO1 // Unsung SVD Dragunov Scope
+15, uns_o_Akatihi4x // Unsung Arisaka Type 99 Scope
+15, uns_b_mas49 // Unsung MAS-49/56 Bayonet
+15, uns_b_type30 // Unsung Arisaka Type 99 Bayonet
 
+> USammo
+15, uns_38specmag
+15, uns_357mag
+15, uns_m1911mag
+15, uns_coltcmdrmag
+15, uns_m3a1mag
+15, uns_m3a1mag_T
+15, uns_12gaugemag_4
+15, uns_12gaugemag_4f
+15, uns_12gaugemag_6
+15, uns_12gaugemag_6f
+15, uns_m14mag
+15, uns_m14mag_T
+15, uns_m14mag_NT
+15, uns_model70mag
+15, uns_model70mag_T
+15, uns_m40mag_T
+15, uns_m40mag
+15, uns_20Rnd_556x45_Stanag
+15, uns_30Rnd_556x45_Stanag
+15, uns_20Rnd_556x45_Stanag_T
+15, uns_30Rnd_556x45_Stanag_T
+15, uns_20Rnd_556x45_Stanag_NT
+15, uns_30Rnd_556x45_Stanag_NT
+15, uns_30Rnd_556x45_Stanag_xm177
+15, uns_30Rnd_556x45_Stanag_xm177_NT
+15, uns_30Rnd_556x45_Stanag_xm177_T
+15, uns_m60mag
+15, uns_m60mag_200
+15, uns_springfieldmag
+15, uns_springfieldmag_T
+15, uns_m1garandmag
+15, uns_m1garandmag_T
+15, uns_m72rocket
+15, Uns_1Rnd_HE_M406
+15, Uns_1Rnd_HE_M381
+15, uns_m406vest
+15, uns_40mm_white
+15, uns_40mm_green
+15, uns_40mm_red
+15, uns_40mm_yellow
+15, uns_40mm_mkv_White
+15, uns_40mm_mkv_Red
+15, uns_40mm_mkv_Yellow
+15, uns_40mm_mkv_Green
+15, uns_1Rnd_Smoke_MKV
+15, uns_1Rnd_SmokeGreen_MKV
+15, uns_1Rnd_SmokeRed_MKV
+15, uns_1Rnd_SmokeYellow_MKV
+15, uns_1Rnd_Smoke_40mm
+15, uns_1Rnd_SmokeGreen_40mm
+15, uns_1Rnd_SmokeRed_40mm
+15, uns_1Rnd_SmokeYellow_40mm
+15, uns_barmag
+15, uns_barmag_T
+15, uns_barmag_NT
+15, uns_20Rnd_556x45_StanagSD
+15, uns_30Rnd_556x45_StanagSD
+15, uns_garandmag
+15, uns_garandmag_T
+15, uns_m1carbinemag
+15, uns_m1carbinemag_T
+15, uns_m1carbinemag_NT
+15, uns_thompsonmag_30
+15, uns_thompsonmag_30_T
+15, uns_thompsonmag_30_NT
+15, uns_m1911SDmag
 
-> USLMG
-15, uns_m60 // Unsung M-60 MG
-15, uns_bar // Unsung M-1918 BAR
+> VCammo
+15, uns_12gaugemag_2
+15, uns_nagant_m1895mag
+15, uns_6Rnd_czak
+15, uns_makarovmag
+15, uns_tokarevmag
+15, uns_20Rnd_APS
+15, uns_25Rnd_pm_pa
+15, uns_20Rnd_sa61_pa
+15, uns_20Rnd_sa61
+15, uns_thompsonmag_20
+15, uns_thompsonmag_20_T
+15, uns_thompsonmag_20_NT
+15, uns_25Rnd_pm
+15, uns_mat49mag_T
+15, uns_mat49mag_NT
+15, uns_mat49mag
+15, uns_mat49_20_mag
+15, uns_type100mag
+15, uns_type100_NT
+15, uns_type100_T
+15, uns_k50mag
+15, uns_k50mag_NT
+15, uns_k50mag_T
+15, uns_ppshmag
+15, uns_ppshmag_T
+15, uns_ppshmag_NT
+15, uns_mp40mag
+15, uns_30Rnd_kurtz_stg
+15, uns_ak47mag
+15, uns_ak47mag_T
+15, uns_ak47mag_NT
+15, uns_svtmag
+15, uns_svtmag_T
+15, uns_sksmag
+15, uns_sksmag_T
+15, uns_sksmag_NT
+15, uns_kar98kmag
+15, uns_kar98kmag_T
+15, uns_mosinmag
+15, uns_mosinmag_T
+15, uns_type99mag
+15, uns_type99mag_T
+15, uns_mas36mag
+15, uns_mas36mag_T
+15, uns_mas4956mag
+15, uns_mas4956mag_T
+15, uns_rpdmag
+15, uns_50Rnd_792x57_Mg42
+15, uns_250Rnd_792x57_Mg42
+15, uns_1Rnd_22mm_lume
+15, uns_B40grenade
+15, uns_rpg2grenade
+15, uns_rpg7grenade
+15, uns_40mm_mkv_White
+15, uns_40mm_mkv_Red
+15, uns_40mm_mkv_Yellow
+15, uns_40mm_mkv_Green
+15, uns_1Rnd_Smoke_MKV
+15, uns_1Rnd_SmokeGreen_MKV
+15, uns_1Rnd_SmokeRed_MKV
+15, uns_1Rnd_SmokeYellow_MKV
+15, uns_svdmag
+15, uns_svdmag_T
 
-> VcLMG
+> UStraps
+15, uns_mk2gren
+15, uns_m61gren
+15, uns_m67gren
+15, uns_m14gren
+15, uns_m18Purple
+15, uns_m18Yellow
+15, uns_m18Green
+15, uns_m18red
+15, uns_m18white
+15, uns_m18Orange
+15, uns_m18Blue
+15, uns_traps_flare_mag
+15, uns_traps_m7_mag
+15, uns_traps_nade_mag
+15, uns_traps_nade_mag3
+15, uns_traps_nade_mag7
+15, uns_traps_claymore_mag
+15, uns_traps_claymore_remote_mag
+15, uns_traps_mine_mag
+15, uns_mine_m14_mag
+15, uns_mine_IN_mag
+15, uns_mine_TM_mag
+15, uns_M118_mag_remote
+15, PipeBomb
 
-
-> USLMGAmmo
-15, uns_m60mag // Unsung M-60 100round MAG1
-15, uns_m60mag_200 // Unsung M-60 200round MAG2
-15, uns_barmag // Unsung M-1918 BAR MAG1
-15, uns_barmag_T // Unsung M-1918 BAR MAG2
-15, uns_barmag_NT // Unsung M-1918 BAR MAG3
-
-> VcLMGAmmo
-
-
-> USLMGAttachments
-15, uns_bp_M60 // Unsung M-60 MG Bipod
-
-> VcLMGAttachments
-
-
-> USSnipers
-15, uns_model70 // Unsung Winchester Model 70 Sniper Rifle
-
-> VcSnipers
-
-
-> USSniperAmmo
-15, uns_model70mag // Unsung Winchester Model 70 MAG1
-15, uns_model70mag_T // Unsung Winchester Model 70 MAG2
-
-> VcSnipersAmmo
-
-
-> USSniperAttachments
-15, uns_o_Unertl8x // Unsung Winchester Model 70 Scope
-
-> VcSniperAttachments
-
+> VCtraps
+15, uns_molotov_mag
+15, uns_f1gren
+15, uns_rg42gren
+15, uns_rgd33gren
+15, uns_t67gren
+15, uns_rdg2
 
 > HandGrenades
 15, uns_v40gren // Unsung V40 Mini-fragmentation grenade
@@ -269,12 +457,6 @@
 15, UNS_NVA_MED // Unsung VC Backpacks
 15, UNS_NVA_R1 // Unsung VC Backpacks
 15, UNS_NVA_RC // Unsung VC Backpacks
-15, UNS_NVA_RTO // Unsung VC Backpacks
-15, UNS_NVA_RPG // Unsung VC Backpacks
-15, UNS_NVA_MED // Unsung VC Backpacks
-15, UNS_NVA_R1 // Unsung VC Backpacks
-15, UNS_NVA_RC // Unsung VC Backpacks
-
 
 > MilitaryVests
 15, UNS_JP_Vest // Unsung Life Preserver Vest

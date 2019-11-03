@@ -1,0 +1,16 @@
+uns_ch47a_medevac
+uns_ch53a_med_usmc
+uns_M577_amb
+uns_M35A2_fueltanker
+uns_M35A2_ammo
+uns_M35A2_fuel
+uns_M35A2_repair
+uns_H13_medevac_CAV
+uns_H13_medevac_Army
+uns_H13_medevac_USAF
+uns_H13_medevac_USMC
+uns_H13_medevac_USN
+uns_uh1D_med
+uns_uh1D_med_light
+uns_uh1H_med
+uns_uh1H_med_light

@@ -1,0 +1,12 @@
+uns_M1_81mm_mortar
+uns_M1_81mm_mortar_arty
+uns_M1_81mm_mortar_pvp
+Uns_M102_artillery
+uns_m107sp
+uns_m110sp
+uns_M113_M30_HQ
+Uns_M114_artillery
+uns_M2_60mm_mortar
+uns_M2_60mm_mortar_pvp
+uns_M30_107mm_mortar
+uns_M113_M30

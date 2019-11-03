@@ -1,0 +1,15 @@
+uns_pm63f
+uns_sa61f
+uns_thompsonvc
+uns_type100
+uns_mat49
+uns_PPS43f
+uns_PPS43
+uns_PPS52
+uns_k50m
+uns_k50mdrum
+uns_ppsh41
+uns_type50
+uns_mp40
+uns_baikal_sawnoff
+uns_baikal

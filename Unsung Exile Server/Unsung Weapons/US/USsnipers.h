@@ -1,0 +1,10 @@
+uns_m14
+uns_model70_iron
+uns_m1carbine
+uns_m1carbine_pouch
+uns_m1carbine_gl
+uns_m2carbine
+uns_m2carbine_gl
+uns_m3carbine
+uns_m1garand
+uns_M40_base

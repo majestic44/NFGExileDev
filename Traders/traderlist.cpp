@@ -1451,10 +1451,10 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 
 	class Exile_Item_Defibrillator                  { quality = 1; price = 1000; };
-	class DDR_Item_Painkillers	                    { quality = 1; price = 40; };
-	class DDR_Item_Dressing		                    { quality = 1; price = 100; };
+	class Exile_Item_Vishpirin	                    { quality = 1; price = 40; };
+	class Exile_Item_InstaDoc		                    { quality = 1; price = 100; };
 	class Exile_Item_Bandage	                    { quality = 1; price = 20; };
-	class FirstAidKit			                    { quality = 1; price = 300; };
+	class UNS_MedKit		                    { quality = 1; price = 300; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Tools
@@ -1473,25 +1473,25 @@ class CfgExileArsenal
 	class Exile_Item_Shovel							{ quality = 1; price = 200; };
 	class Exile_Item_Wrench							{ quality = 1; price = 250; };
 	class Exile_Item_Knife							{ quality = 1; price = 250; };
-	class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
+	//class Exile_Item_FireExtinguisher				{ quality = 1; price = 650; };
 	class Exile_Item_Hammer							{ quality = 1; price = 500; };
-	class uns_leaflet12								{ quality = 1; price = 50; };
-	class uns_item_condoms							{ quality = 1; price = 50; };
+	//class uns_leaflet12								{ quality = 1; price = 50; };
+	//class uns_item_condoms							{ quality = 1; price = 50; };
 	class uns_item_zippo							{ quality = 1; price = 100; };
-	class DDR_Item_Fishing_Net						{ quality = 1; price = 500; };
+	//class DDR_Item_Fishing_Net						{ quality = 1; price = 500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Repair Parts
 	///////////////////////////////////////////////////////////////////////////////
 
-	class DDR_Item_Glass	 						{ quality = 1; price = 200; };
-	class DDR_Item_Fiberglass 						{ quality = 1; price = 400; };
-	class Exile_Item_CarWheel						{ quality = 1; price = 200; };
-	class DDR_Item_Battery							{ quality = 1; price = 500; };
-	class DDR_Item_Fuel_Tank						{ quality = 1; price = 1000; };
-	class DDR_Item_Tailrotor						{ quality = 1; price = 1000; };
-	class DDR_Item_Main_Rotor						{ quality = 1; price = 1500; };
-	class DDR_Item_Engine							{ quality = 1; price = 1500; };
+	//class DDR_Item_Glass	 						{ quality = 1; price = 200; };
+	//class DDR_Item_Fiberglass 						{ quality = 1; price = 400; };
+	//class Exile_Item_CarWheel						{ quality = 1; price = 200; };
+	//class DDR_Item_Battery							{ quality = 1; price = 500; };
+	//class DDR_Item_Fuel_Tank						{ quality = 1; price = 1000; };
+	//class DDR_Item_Tailrotor						{ quality = 1; price = 1000; };
+	//class DDR_Item_Main_Rotor						{ quality = 1; price = 1500; };
+	//class DDR_Item_Engine							{ quality = 1; price = 1500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
@@ -1851,73 +1851,159 @@ class CfgExileArsenal
 	// Ammunition
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_12gaugemag_4 							{ quality = 1; price = 50; };
-	class uns_12gaugemag_6 							{ quality = 1; price = 75; };
-	class uns_m870mag 								{ quality = 1; price = 100; };
-	class uns_ithaca37mag 							{ quality = 1; price = 75; };
-	class uns_m1897mag 								{ quality = 1; price = 100; };
-	class uns_model12mag 							{ quality = 1; price = 100; };
-	class uns_Rugermag 								{ quality = 1; price = 50; };
-	class uns_ppkmag 								{ quality = 1; price = 50; };
-	class uns_38specmag 							{ quality = 1; price = 50; };
-	class uns_357mag 								{ quality = 1; price = 50; };
-	class uns_m1911mag 								{ quality = 1; price = 50; };
-	class uns_coltcmdrmag 							{ quality = 1; price = 50; };
-	class uns_13Rnd_hp 								{ quality = 1; price = 50; };
-	class uns_makarovmag 							{ quality = 1; price = 50; };
-	class uns_20Rnd_APS 							{ quality = 1; price = 100; };
-	class uns_20Rnd_sa61 							{ quality = 1; price = 100; };
-	class uns_mac10mag 								{ quality = 1; price = 100; };
-	class uns_32Rnd_uzi 							{ quality = 1; price = 100; };
-	class uns_stenmag								{ quality = 1; price = 100; };
-	class uns_thompsonmag_30						{ quality = 1; price = 100; };
-	class uns_m3a1mag 								{ quality = 1; price = 100; };
-	class uns_k50mag 								{ quality = 1; price = 100; };
-	class uns_30Rnd_kurtz_stg  						{ quality = 1; price = 200; };
-	class uns_m2carbinemag 							{ quality = 1; price = 100; };
-	class uns_m2carbinemag_T 						{ quality = 1; price = 100; };
-	class uns_m1garandmag 							{ quality = 1; price = 100; };
-	class uns_m1garandmag_T 						{ quality = 1; price = 100; };
-	class uns_m14mag 								{ quality = 1; price = 200; };
-	class uns_m14mag_T 								{ quality = 1; price = 200; };
-	class uns_svdmag_T 								{ quality = 1; price = 200; };
-	class uns_model70mag 							{ quality = 1; price = 100; };
-	class uns_model70mag_T 							{ quality = 1; price = 100; };
-	class uns_smlemag								{ quality = 1; price = 100; };
-	class uns_smlemag_T								{ quality = 1; price = 100; };
-	class uns_mas36mag								{ quality = 1; price = 100; };
-	class uns_mas36mag_T 							{ quality = 1; price = 100; };
-	class uns_mas4956mag 							{ quality = 1; price = 200; };
-	class uns_mas4956mag_T 							{ quality = 1; price = 200; };
-	class uns_mosinmag 								{ quality = 1; price = 100; };
-	class uns_mosinmag_T 							{ quality = 1; price = 100; };
-	class uns_kar98kmag 							{ quality = 1; price = 100; };
-	class uns_kar98kmag_T 							{ quality = 1; price = 100; };
-	class uns_30Rnd_556x45_Stanag					{ quality = 1; price = 100; };
-	class uns_30Rnd_556x45_Stanag_T					{ quality = 1; price = 100; };
-	class uns_sksmag								{ quality = 1; price = 100; };
-	class uns_sksmag_T 								{ quality = 1; price = 100; };
-	class uns_ak47mag 								{ quality = 1; price = 100; };
-	class uns_sa58mag 								{ quality = 1; price = 100; };
-	class uns_ak47mag_T 							{ quality = 1; price = 100; };
-	class uns_sa58mag_T 							{ quality = 1; price = 100; };
-	class uns_rpkmag 								{ quality = 1; price = 250; };
-	class uns_rpdmag 								{ quality = 1; price = 250; };
-	class uns_47Rnd_DP28							{ quality = 1; price = 200; };
-	class uns_250Rnd_792x57_Mg42 					{ quality = 1; price = 400; };
-	class uns_barmag 								{ quality = 1; price = 250; };
-	class uns_barmag_T 								{ quality = 1; price = 250; };
-	class uns_100Rnd_127x99_M2 						{ quality = 1; price = 550; };
-	class uns_200Rnd_127x99_M2 						{ quality = 1; price = 750; };
-	class uns_500Rnd_127x99_M2 						{ quality = 1; price = 1000; };
-	class uns_1000Rnd_127x99_M2 					{ quality = 1; price = 2000; };
-	class uns_m60mag_200 							{ quality = 1; price = 450; };
-	class uns_m60mag_500 							{ quality = 1; price = 850; };
+	class uns_12gaugemag_4      { quality = 1; price = 100; };
+	class uns_12gaugemag_6      { quality = 1; price = 100; };
+	class uns_m870ma      { quality = 1; price = 100; };
+	class uns_ithaca37ma      { quality = 1; price = 100; };
+	class uns_m1897mag      { quality = 1; price = 100; };
+	class uns_model12mag      { quality = 1; price = 100; };
+	class uns_Rugermag      { quality = 1; price = 100; };
+	class uns_ppkmag      { quality = 1; price = 100; };
+	class uns_38specma      { quality = 1; price = 100; };
+	class uns_357mag      { quality = 1; price = 100; };
+	class uns_m1911mag      { quality = 1; price = 100; };
+	class uns_coltcmdrma      { quality = 1; price = 100; };
+	class uns_13Rnd_hp      { quality = 1; price = 100; };
+	class uns_makarovmag      { quality = 1; price = 100; };
+	class uns_20Rnd_AP      { quality = 1; price = 100; };
+	class uns_20Rnd_sa61      { quality = 1; price = 100; };
+	class uns_mac10mag      { quality = 1; price = 100; };
+	class uns_32Rnd_uz      { quality = 1; price = 100; };
+	class uns_stenmag      { quality = 1; price = 100; };
+	class uns_thompsonmag_30      { quality = 1; price = 100; };
+	class uns_m3a1ma      { quality = 1; price = 100; };
+	class ns_k50ma      { quality = 1; price = 100; };
+	class uns_30Rnd_kurtz_stg     { quality = 1; price = 100; };
+	class uns_m2carbinemag      { quality = 1; price = 100; };
+	class uns_m2carbinemag_T      { quality = 1; price = 100; };
+	class uns_m1garandma      { quality = 1; price = 100; };
+	class uns_m1garandmag_T     { quality = 1; price = 100; };
+	class uns_m14mag      { quality = 1; price = 100; };
+	class uns_m14mag_T      { quality = 1; price = 100; };
+	class uns_svdmag_T      { quality = 1; price = 100; };
+	class uns_model70mag      { quality = 1; price = 100; };
+	class uns_model70mag_T      { quality = 1; price = 100; };
+	class uns_smlema      { quality = 1; price = 100; };
+	class uns_smlemag_      { quality = 1; price = 100; };
+	class uns_mas36mag      { quality = 1; price = 100; };
+	class uns_mas36mag_T      { quality = 1; price = 100; };
+	class uns_mas4956mag      { quality = 1; price = 100; };
+	class uns_mas4956mag_T      { quality = 1; price = 100; };
+	class uns_mosinmag      { quality = 1; price = 100; };
+	class uns_mosinmag_T      { quality = 1; price = 100; };
+	class uns_kar98kma      { quality = 1; price = 100; };
+	class uns_kar98kmag_      { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag     { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag_T     { quality = 1; price = 100; };
+	class uns_sksmag      { quality = 1; price = 100; };
+	class uns_sksmag_T      { quality = 1; price = 100; };
+	class uns_ak47ma      { quality = 1; price = 100; };
+	class uns_sa58ma      { quality = 1; price = 100; };
+	class uns_ak47mag_      { quality = 1; price = 100; };
+	class uns_sa58mag_      { quality = 1; price = 100; };
+	class uns_rpkmag      { quality = 1; price = 100; };
+	class uns_rpdmag      { quality = 1; price = 100; };
+	class uns_47Rnd_DP28      { quality = 1; price = 100; };
+	class uns_250Rnd_792x57_Mg42      { quality = 1; price = 100; };
+	class uns_barmag      { quality = 1; price = 100; };
+	class uns_barmag_T      { quality = 1; price = 100; };
+	class uns_100Rnd_127x99_M2      { quality = 1; price = 100; };
+	class uns_200Rnd_127x99_M2      { quality = 1; price = 100; };
+	class uns_500Rnd_127x99_M2      { quality = 1; price = 100; };
+	class uns_1000Rnd_127x99_M2     { quality = 1; price = 100; };
+	class uns_m60mag_200      { quality = 1; price = 100; };
+	class uns_m60mag_500      { quality = 1; price = 100; };
+	class uns_32Rnd_uzi_pa      { quality = 1; price = 100; };
+	class uns_owenma      { quality = 1; price = 100; };
+	class uns_owenmag_      { quality = 1; price = 100; };
+	class uns_f1_smg_mag      { quality = 1; price = 100; };
+	class uns_stenmag_T      { quality = 1; price = 100; };
+	class uns_mk4mag      { quality = 1; price = 100; };
+	class uns_mk4mag_T      { quality = 1; price = 100; };
+	class uns_m50mag      { quality = 1; price = 100; };
+	class uns_m45mag      { quality = 1; price = 100; };
+	class uns_m45mag_T      { quality = 1; price = 100; };
+	class uns_m45mag_N      { quality = 1; price = 100; };
+	class uns_thompsonmag_20      { quality = 1; price = 100; };
+	class uns_thompsonmag_20_T      { quality = 1; price = 100; };
+	class uns_thompsonmag_30_T      { quality = 1; price = 100; };
+	class uns_thompsonmag_20_NT     { quality = 1; price = 100; };
+	class uns_thompsonmag_30_NT     { quality = 1; price = 100; };
+	class uns_m3a1mag_      { quality = 1; price = 100; };
+	class uns_12gaugemag_4f     { quality = 1; price = 100; };
+	class uns_12gaugemag_6f     { quality = 1; price = 100; };
+	class uns_20Rnd_556x45_Stanag     { quality = 1; price = 100; };
+	class uns_20Rnd_556x45_Stanag_T     { quality = 1; price = 100; };
+	class uns_20Rnd_556x45_Stanag_NT      { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag_NT      { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag_xm177     { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag_xm177_NT      { quality = 1; price = 100; };
+	class uns_30Rnd_556x45_Stanag_xm177_T     { quality = 1; price = 100; };
+	class uns_40Rnd_556x45_Stanag     { quality = 1; price = 100; };
+	class uns_40Rnd_556x45_Stanag_T     { quality = 1; price = 100; };
+	class uns_40Rnd_556x45_Stanag_NT      { quality = 1; price = 100; };
+	class uns_40Rnd_556x45_t223     { quality = 1; price = 100; };
+	class uns_40Rnd_556x45_t223_T     { quality = 1; price = 100; };
+	class uns_m63ama      { quality = 1; price = 100; };
+	class uns_m63abo      { quality = 1; price = 100; };
+	class uns_springfieldmag      { quality = 1; price = 100; };
+	class uns_springfieldmag_T      { quality = 1; price = 100; };
+	class uns_m14mag_N      { quality = 1; price = 100; };
+	class uns_m40mag_T      { quality = 1; price = 100; };
+	class uns_m40mag      { quality = 1; price = 100; };
+	class uns_l1a1ma      { quality = 1; price = 100; };
+	class uns_l1a1mag_T     { quality = 1; price = 100; };
+	class uns_l1a1mag_NT      { quality = 1; price = 100; };
+	class uns_1Rnd_22mm_lume      { quality = 1; price = 100; };
+	class Uns_1Rnd_22mm_AT      { quality = 1; price = 100; };
+	class Uns_1Rnd_22mm_HEAT      { quality = 1; price = 100; };
+	class Uns_1Rnd_22mm_WP      { quality = 1; price = 100; };
+	class Uns_1Rnd_22mm_FRAG      { quality = 1; price = 100; };
+	class Uns_1Rnd_30mm_FRAG      { quality = 1; price = 100; };
+	class uns_100Rnd_m1919      { quality = 1; price = 100; };
+	class uns_250Rnd_m1919      { quality = 1; price = 100; };
+	class uns_barmag_N      { quality = 1; price = 100; };
+	class uns_m60mag      { quality = 1; price = 100; };
+	class uns_ex41mag      { quality = 1; price = 100; };
+	class ns_1Rnd_HEDP_M433     { quality = 1; price = 100; };
+	class Uns_1Rnd_HE_M381      { quality = 1; price = 100; };
+	class Uns_1Rnd_HE_M406      { quality = 1; price = 100; };
+	class uns_1Rnd_AB_M397      { quality = 1; price = 100; };
+	class uns_1Rnd_M127_mag     { quality = 1; price = 100; };
+	class uns_M28A2_mag      { quality = 1; price = 100; };
+	class uns_m72rocke      { quality = 1; price = 100; };
+	class uns_nagant_m1895mag     { quality = 1; price = 100; };
+	class uns_1Rnd_BS_M576      { quality = 1; price = 100; };
+	class uns_6Rnd_cza      { quality = 1; price = 100; };
+	class uns_tokarevmag      { quality = 1; price = 100; };
+	class uns_B40grenade      { quality = 1; price = 100; };
+	class uns_rpg2grenad      { quality = 1; price = 100; };
+	class uns_rpg7grenad      { quality = 1; price = 100; };
+	class uns_sa7mag      { quality = 1; price = 100; };
+	class uns_50Rnd_792x57_Mg42     { quality = 1; price = 100; };
+	class uns_100Rnd_762x54_ukvz59      { quality = 1; price = 100; };
+	class uns_100Rnd_762x54_PK      { quality = 1; price = 100; };
+	class uns_sa58mag_NT          { quality = 1; price = 100; };
+	class uns_svtmag          { quality = 1; price = 100; };
+	class uns_svtmag_T          { quality = 1; price = 100; };
+	class uns_sksmag_N          { quality = 1; price = 100; };
+	class uns_svdmag          { quality = 1; price = 100; };
+	class uns_k50mag          { quality = 1; price = 100; };
+	class uns_k50mag_N          { quality = 1; price = 100; };
+	class uns_k50mag_T          { quality = 1; price = 100; };
+	class uns_ppshma          { quality = 1; price = 100; };
+	class uns_ppshmag_T          { quality = 1; price = 100; };
+	class uns_ppshmag_NT          { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Flares
 	///////////////////////////////////////////////////////////////////////////////
 
+	class UGL_FlareWhite_F      { quality = 1; price = 100; };
+	class UGL_FlareGreen_F      { quality = 1; price = 100; };
+	class UGL_FlareRed_F      { quality = 1; price = 100; };
+	class UGL_FlareYellow_F     { quality = 1; price = 100; };
+	class UGL_FlareCIR_F      { quality = 1; price = 100; };
 	class uns_40mm_white							{ quality = 1; price = 10; };
 	class uns_40mm_green							{ quality = 1; price = 10; };
 	class uns_40mm_red								{ quality = 1; price = 10; };
@@ -1931,21 +2017,27 @@ class CfgExileArsenal
 	// Smokes
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_1Rnd_Smoke_MKV						{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeRed_MKV						{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeGreen_MKV					{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeYellow_MKV					{ quality = 1; price = 10; };
-	class uns_1Rnd_Smoke_40mm						{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeRed_40mm					{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeGreen_40mm					{ quality = 1; price = 10; };
-	class uns_1Rnd_SmokeYellow_40mm					{ quality = 1; price = 10; };
-	class uns_m18Purple								{ quality = 1; price = 10; };
-	class uns_m18Yellow								{ quality = 1; price = 10; };
-	class uns_m18Green								{ quality = 1; price = 10; };
-	class uns_m18red								{ quality = 1; price = 10; };
-	class uns_m18white								{ quality = 1; price = 10; };
-	class uns_m18Orange								{ quality = 1; price = 10; };
-	class uns_m18Blue								{ quality = 1; price = 10; };
+	class uns_1Rnd_Smoke_MKV      { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeRed_MKV     { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeGreen_MKV     { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeYellow_MKV      { quality = 1; price = 100; };
+	class uns_1Rnd_Smoke_40mm     { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeRed_40mm      { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeGreen_40mm      { quality = 1; price = 100; };
+	class uns_1Rnd_SmokeYellow_40mm     { quality = 1; price = 100; };
+	class uns_m18Purple     { quality = 1; price = 100; };
+	class uns_m18Yellow     { quality = 1; price = 100; };
+	class uns_m18Green      { quality = 1; price = 100; };
+	class uns_m18red      { quality = 1; price = 100; };
+	class uns_m18white      { quality = 1; price = 100; };
+	class uns_m18Orange     { quality = 1; price = 100; };
+	class uns_m18Blue     { quality = 1; price = 100; };
+	class uns_40mm_white      { quality = 1; price = 100; };
+	class uns_40mm_green      { quality = 1; price = 100; };
+	class uns_40mm_red      { quality = 1; price = 100; };
+	class uns_40mm_yello      { quality = 1; price = 100; };
+	class uns_M30_smoke_mag     { quality = 1; price = 100; };
+	class Uns_1Rnd_22mm_smoke     { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Explosives
@@ -1979,67 +2071,170 @@ class CfgExileArsenal
 	// Pistols
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_ppk 									{ quality = 1; price = 150; };
-	class uns_Ruger 								{ quality = 1; price = 150; };
-	class uns_38spec 								{ quality = 1; price = 200; };
-	class uns_357m 									{ quality = 1; price = 200; };
-	class uns_bhp 									{ quality = 1; price = 250; };
-	class uns_coltcmdr 								{ quality = 1; price = 250; };
-	class uns_m1911 								{ quality = 1; price = 250; };
-	class uns_mkvFlarePistol 						{ quality = 1; price = 150; };
-	class uns_makarov 								{ quality = 1; price = 150; };
-	class uns_APS 									{ quality = 1; price = 250; };
-	class uns_sa61_p 								{ quality = 1; price = 300; };
-	class uns_Tt33 									{ quality = 1; price = 150; };
-	class uns_p64	 								{ quality = 1; price = 150; };
+	class uns_mkvFlarePistol      { quality = 1; price = 100; };
+	class uns_MX991_r     { quality = 1; price = 100; };
+	class uns_MX991_w     { quality = 1; price = 100; };
+	class uns_MX991_g     { quality = 1; price = 100; };
+	class uns_MX991_m1911     { quality = 1; price = 100; };
+	class uns_Ruger     { quality = 1; price = 100; };
+	class uns_ppk     { quality = 1; price = 100; };
+	class uns_38spec      { quality = 1; price = 100; };
+	class uns_sw_m10      { quality = 1; price = 100; };
+	class uns_357m      { quality = 1; price = 100; };
+	class uns_nagant_m1895      { quality = 1; price = 100; };
+	class uns_m1911     { quality = 1; price = 100; };
+	class uns_coltcmdr      { quality = 1; price = 100; };
+	class uns_bhp     { quality = 1; price = 100; };
+	class uns_mat49p      { quality = 1; price = 100; };
+	class uns_m2carbine_shorty_p      { quality = 1; price = 100; };
+	class uns_m79p      { quality = 1; price = 100; };
+	class uns_p64     { quality = 1; price = 100; };
+	class uns_makarov     { quality = 1; price = 100; };
+	class uns_Tt33      { quality = 1; price = 100; };
+	class uns_APS     { quality = 1; price = 100; };
+	class uns_pm63p     { quality = 1; price = 100; };
+	class uns_sa61_p      { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Sub Machine Guns
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_uzi 									{ quality = 1; price = 550; };
-	class uns_mac10 								{ quality = 1; price = 550; };
-	class uns_sten 									{ quality = 1; price = 550; };
-	class uns_Sterling 								{ quality = 1; price = 550; };
-	class uns_thompson 								{ quality = 1; price = 550; };
-	class uns_m3a1 									{ quality = 1; price = 550; };
-	class uns_k50m 									{ quality = 1; price = 550; };
+	class uns_uzi     { quality = 1; price = 100; };
+	class uns_uzif      { quality = 1; price = 100; };
+	class uns_mac10     { quality = 1; price = 100; };
+	class uns_mat49     { quality = 1; price = 100; };
+	class uns_m50     { quality = 1; price = 100; };
+	class uns_m50f      { quality = 1; price = 100; };
+	class uns_m45f      { quality = 1; price = 100; };
+	class uns_m45     { quality = 1; price = 100; };
+	class uns_owen      { quality = 1; price = 100; };
+	class uns_f1_smg      { quality = 1; price = 100; };
+	class uns_sten      { quality = 1; price = 100; };
+	class uns_Sterling_f      { quality = 1; price = 100; };
+	class uns_Sterling      { quality = 1; price = 100; };
+	class uns_SterlingSD_f      { quality = 1; price = 100; };
+	class uns_SterlingSD      { quality = 1; price = 100; };
+	class uns_thompson      { quality = 1; price = 100; };
+	class uns_m3a1    { quality = 1; price = 100; };
+	class uns_pm63      { quality = 1; price = 100; };
+	class uns_pm63f     { quality = 1; price = 100; };
+	class uns_sa61      { quality = 1; price = 100; };
+	class uns_sa61f     { quality = 1; price = 100; };
+	class uns_PPS43f      { quality = 1; price = 100; };
+	class uns_PPS43     { quality = 1; price = 100; };
+	class uns_PPS52     { quality = 1; price = 100; };
+	class uns_k50m      { quality = 1; price = 100; };
+	class uns_k50mdrum      { quality = 1; price = 100; };
+	class uns_ppsh41      { quality = 1; price = 100; };
+	class uns_type50      { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Light Machine Guns
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_bar									{ quality = 1; price = 1200; };
-	class uns_m60									{ quality = 1; price = 1200; };
-	class uns_RPK_drum								{ quality = 1; price = 1200; };
-	class uns_PK									{ quality = 1; price = 1200; };
-	class uns_RPD_drum								{ quality = 1; price = 1200; };
-	class uns_rpd									{ quality = 1; price = 1200; };
-	class uns_MG42									{ quality = 1; price = 1200; };
+	class uns_bar       { quality = 1; price = 100; };
+	class uns_m1919a6       { quality = 1; price = 100; };
+	class uns_m60       { quality = 1; price = 100; };
+	class uns_m60support        { quality = 1; price = 100; };
+	class uns_m60shorty       { quality = 1; price = 100; };
+	class uns_m60grip       { quality = 1; price = 100; };
+	class uns_rpdsog        { quality = 1; price = 100; };
+	class uns_RPK_40        { quality = 1; price = 100; };
+	class uns_RPK_drum        { quality = 1; price = 100; };
+	class uns_rpd       { quality = 1; price = 100; };
+	class uns_ukvz59        { quality = 1; price = 100; };
+	class uns_PK        { quality = 1; price = 100; };
+	class uns_MG42        { quality = 1; price = 100; };
+	class uns_mg42_bakelite       { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Rifles
 	///////////////////////////////////////////////////////////////////////////////
 
-	class uns_M16A1									{ quality = 1; price = 800; };
-	class uns_xm177e1								{ quality = 1; price = 1000; };
-	class uns_xm177e2								{ quality = 1; price = 1000; };
-	class uns_m2carbine								{ quality = 1; price = 500; };
-	class uns_m1garand								{ quality = 1; price = 500; };
-	class uns_m14									{ quality = 1; price = 1200; };
-	class uns_model70_iron							{ quality = 1; price = 1000; };
-	class uns_sks									{ quality = 1; price = 500; };
-	class uns_mosin									{ quality = 1; price = 500; };
-	class uns_kar98k								{ quality = 1; price = 850; };
-	class uns_smle									{ quality = 1; price = 550; };
-	class uns_mas36									{ quality = 1; price = 550; };
-	class uns_mas4956								{ quality = 1; price = 1000; };
-	class uns_ak47									{ quality = 1; price = 800; };
-	class uns_ak47_52								{ quality = 1; price = 800; };
-	class uns_sa58p									{ quality = 1; price = 800; };
-	class uns_sa58v									{ quality = 1; price = 800; };
-	class uns_akms									{ quality = 1; price = 800; };
-	class uns_AKM									{ quality = 1; price = 800; };
+	class uns_ithaca37        { quality = 1; price = 100; };
+	class uns_ithaca37_grip       { quality = 1; price = 100; };
+	class uns_m1897riot       { quality = 1; price = 100; };
+	class uns_m1897       { quality = 1; price = 100; };
+	class uns_model12       { quality = 1; price = 100; };
+	class uns_m870        { quality = 1; price = 100; };
+	class uns_m870_mk1        { quality = 1; price = 100; };
+	class uns_m16       { quality = 1; price = 100; };
+	class uns_M16_dm        { quality = 1; price = 100; };
+	class uns_m16_camo        { quality = 1; price = 100; };
+	class uns_m16_xm148       { quality = 1; price = 100; };
+	class uns_m16_xm148_camo        { quality = 1; price = 100; };
+	class uns_m16_m203        { quality = 1; price = 100; };
+	class uns_M16A1       { quality = 1; price = 100; };
+	class uns_m16A1_camo        { quality = 1; price = 100; };
+	class uns_M16A1_HBAR        { quality = 1; price = 100; };
+	class uns_m16a1_xm148       { quality = 1; price = 100; };
+	class uns_m16a1_m203        { quality = 1; price = 100; };
+	class uns_xm177e1       { quality = 1; price = 100; };
+	class uns_xm177e1_dm        { quality = 1; price = 100; };
+	class uns_xm177e1_xm148       { quality = 1; price = 100; };
+	class uns_xm177e1_m203        { quality = 1; price = 100; };
+	class uns_xm177e2       { quality = 1; price = 100; };
+	class uns_xm177e2_grip        { quality = 1; price = 100; };
+	class uns_xm177e2_short       { quality = 1; price = 100; };
+	class uns_xm177e2_stock       { quality = 1; price = 100; };
+	class uns_xm177e2_xm148       { quality = 1; price = 100; };
+	class uns_xm177e2_m203        { quality = 1; price = 100; };
+	class uns_t233        { quality = 1; price = 100; };
+	class uns_M63a_drum       { quality = 1; price = 100; };
+	class uns_M63a_LMG        { quality = 1; price = 100; };
+	class uns_m63asupport       { quality = 1; price = 100; };
+	class uns_M16A1       { quality = 1; price = 100; };
+	class uns_xm177e1       { quality = 1; price = 100; };
+	class uns_xm177e2       { quality = 1; price = 100; };
+	class uns_m2carbine       { quality = 1; price = 100; };
+	class uns_m1garand        { quality = 1; price = 100; };
+	class uns_m14       { quality = 1; price = 100; };
+	class uns_model70_iron        { quality = 1; price = 100; };
+	class uns_sks       { quality = 1; price = 100; };
+	class uns_mosin       { quality = 1; price = 100; };
+	class uns_kar98k        { quality = 1; price = 100; };
+	class uns_smle        { quality = 1; price = 100; };
+	class uns_mas36       { quality = 1; price = 100; };
+	class uns_mas4956       { quality = 1; price = 100; };
+	class uns_ak47        { quality = 1; price = 100; };
+	class uns_ak47_52       { quality = 1; price = 100; };
+	class uns_sa58p       { quality = 1; price = 100; };
+	class uns_sa58v       { quality = 1; price = 100; };
+	class uns_akms        { quality = 1; price = 100; };
+	class uns_AKM       { quality = 1; price = 100; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Sniper
+	///////////////////////////////////////////////////////////////////////////////
+
+	class uns_m1carbine     { quality = 1; price = 100; };
+	class uns_m1carbine_gl      { quality = 1; price = 100; };
+	class uns_m1carbine_pouch     { quality = 1; price = 100; };
+	class uns_m1carbine_pouch_gl      { quality = 1; price = 100; };
+	class uns_m2carbine_shorty      { quality = 1; price = 100; };
+	class uns_m2carbine     { quality = 1; price = 100; };
+	class uns_m2carbine_bayo      { quality = 1; price = 100; };
+	class uns_m2carbine_sniper      { quality = 1; price = 100; };
+	class uns_m2carbine_gl      { quality = 1; price = 100; };
+	class uns_m1garand      { quality = 1; price = 100; };
+	class uns_m1garand_gl     { quality = 1; price = 100; };
+	class uns_m1903     { quality = 1; price = 100; };
+	class uns_smle      { quality = 1; price = 100; };
+	class uns_l1a1      { quality = 1; price = 100; };
+	class uns_l1a1_enfield      { quality = 1; price = 100; };
+	class uns_l1a1_blk      { quality = 1; price = 100; };
+	class uns_l2a1      { quality = 1; price = 100; };
+	class uns_l2a1_shorty     { quality = 1; price = 100; };
+	class uns_l1a1gl      { quality = 1; price = 100; };
+	class uns_m14     { quality = 1; price = 100; };
+	class uns_model70_iron      { quality = 1; price = 100; };
+	class uns_kar98k      { quality = 1; price = 100; };
+	class uns_mosin     { quality = 1; price = 100; };
+	class uns_sa58vf      { quality = 1; price = 100; };
+	class uns_sa58v     { quality = 1; price = 100; };
+	class uns_sa58p     { quality = 1; price = 100; };
+	class uns_sa58p_camo      { quality = 1; price = 100; };
+	class uns_svd_base      { quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Shotguns

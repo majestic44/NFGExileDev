@@ -134,7 +134,6 @@
 15, uns_m1carbine_gl
 15, uns_m2carbine
 15, uns_m2carbine_gl
-15, uns_m3carbine
 15, uns_m1garand
 15, uns_M40_base
 
@@ -621,6 +620,7 @@
 15, Exile_Item_Bandage // Extended Servival Bandages
 15, Exile_Item_Vishpirin // Extended Servival PainKillers
 15, Exile_Item_InstaDoc // Default Exile Medical Item
+15, Exile_Item_Defibrillator // Exile Defibrillator for Revive
 
 > IndustrialItems
 1, Exile_Item_ThermalScannerPro

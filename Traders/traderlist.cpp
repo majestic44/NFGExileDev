@@ -1884,7 +1884,7 @@ class CfgExileArsenal
 	class uns_model70mag      { quality = 1; price = 100; };
 	class uns_model70mag_T      { quality = 1; price = 100; };
 	class uns_smlema      { quality = 1; price = 100; };
-	class uns_smlemag_      { quality = 1; price = 100; };
+	class uns_smlemag_T      { quality = 1; price = 100; };
 	class uns_mas36mag      { quality = 1; price = 100; };
 	class uns_mas36mag_T      { quality = 1; price = 100; };
 	class uns_mas4956mag      { quality = 1; price = 100; };
@@ -1892,15 +1892,15 @@ class CfgExileArsenal
 	class uns_mosinmag      { quality = 1; price = 100; };
 	class uns_mosinmag_T      { quality = 1; price = 100; };
 	class uns_kar98kma      { quality = 1; price = 100; };
-	class uns_kar98kmag_      { quality = 1; price = 100; };
+	class uns_kar98kmag_T      { quality = 1; price = 100; };
 	class uns_30Rnd_556x45_Stanag     { quality = 1; price = 100; };
 	class uns_30Rnd_556x45_Stanag_T     { quality = 1; price = 100; };
 	class uns_sksmag      { quality = 1; price = 100; };
 	class uns_sksmag_T      { quality = 1; price = 100; };
 	class uns_ak47ma      { quality = 1; price = 100; };
 	class uns_sa58ma      { quality = 1; price = 100; };
-	class uns_ak47mag_      { quality = 1; price = 100; };
-	class uns_sa58mag_      { quality = 1; price = 100; };
+	class uns_ak47mag_T      { quality = 1; price = 100; };
+	class uns_sa58mag_T      { quality = 1; price = 100; };
 	class uns_rpkmag      { quality = 1; price = 100; };
 	class uns_rpdmag      { quality = 1; price = 100; };
 	class uns_47Rnd_DP28      { quality = 1; price = 100; };
@@ -1915,7 +1915,7 @@ class CfgExileArsenal
 	class uns_m60mag_500      { quality = 1; price = 100; };
 	class uns_32Rnd_uzi_pa      { quality = 1; price = 100; };
 	class uns_owenma      { quality = 1; price = 100; };
-	class uns_owenmag_      { quality = 1; price = 100; };
+	class uns_owenmag_T      { quality = 1; price = 100; };
 	class uns_f1_smg_mag      { quality = 1; price = 100; };
 	class uns_stenmag_T      { quality = 1; price = 100; };
 	class uns_mk4mag      { quality = 1; price = 100; };
@@ -1929,7 +1929,7 @@ class CfgExileArsenal
 	class uns_thompsonmag_30_T      { quality = 1; price = 100; };
 	class uns_thompsonmag_20_NT     { quality = 1; price = 100; };
 	class uns_thompsonmag_30_NT     { quality = 1; price = 100; };
-	class uns_m3a1mag_      { quality = 1; price = 100; };
+	class uns_m3a1mag_T      { quality = 1; price = 100; };
 	class uns_12gaugemag_4f     { quality = 1; price = 100; };
 	class uns_12gaugemag_6f     { quality = 1; price = 100; };
 	class uns_20Rnd_556x45_Stanag     { quality = 1; price = 100; };

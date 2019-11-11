@@ -7,85 +7,64 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Rifles
 ///////////////////////////////////////////////////////////////////////////////
-uns_ithaca37
-uns_ithaca37_grip
-uns_m1897riot
-uns_m1897
-uns_model12
-uns_m870
-uns_m870_mk1
-uns_m16
-uns_M16_dm
-uns_m16_camo
-uns_m16_xm148
-uns_m16_xm148_camo
-uns_m16_m203
-uns_M16A1
-uns_m16A1_camo
-uns_M16A1_HBAR
-uns_m16a1_xm148
-uns_m16a1_m203
-uns_xm177e1
-uns_xm177e1_dm
-uns_xm177e1_xm148
-uns_xm177e1_m203
-uns_xm177e2
-uns_xm177e2_grip
-uns_xm177e2_short
-uns_xm177e2_stock
-uns_xm177e2_xm148
-uns_xm177e2_m203
-uns_t233
-uns_M63a_drum
-uns_M63a_LMG
-uns_m63asupport
+class uns_ithaca37                          { quality = 1; price = 100; sellPrice = 280; };
+class uns_ithaca37_grip                     { quality = 1; price = 100; sellPrice = 280; };
+class uns_m1897riot                         { quality = 1; price = 100; sellPrice = 280; };
+class uns_m1897                             { quality = 1; price = 100; sellPrice = 280; };
+class uns_model12                           { quality = 1; price = 100; sellPrice = 280; };
+class uns_m870                              { quality = 1; price = 100; sellPrice = 280; };
+class uns_m870_mk1                          { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16                               { quality = 1; price = 100; sellPrice = 280; };
+class uns_M16_dm                            { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16_camo                          { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16_xm148                         { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16_xm148_camo                    { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16_m203                          { quality = 1; price = 100; sellPrice = 280; };
+class uns_M16A1                             { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16A1_camo                        { quality = 1; price = 100; sellPrice = 280; };
+class uns_M16A1_HBAR                        { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16a1_xm148                       { quality = 1; price = 100; sellPrice = 280; };
+class uns_m16a1_m203                        { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e1                           { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e1_dm                        { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e1_xm148                     { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e1_m203                      { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2                           { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2_grip                      { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2_short                     { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2_stock                     { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2_xm148                     { quality = 1; price = 100; sellPrice = 280; };
+class uns_xm177e2_m203                      { quality = 1; price = 100; sellPrice = 280; };
+class uns_t233                              { quality = 1; price = 100; sellPrice = 280; };
+class uns_M63a_drum                         { quality = 1; price = 100; sellPrice = 280; };
+class uns_M63a_LMG                          { quality = 1; price = 100; sellPrice = 280; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Rifle Ammo
 ///////////////////////////////////////////////////////////////////////////////
-uns_mac10mag
-uns_32Rnd_uzi
-uns_32Rnd_uzi_pa
-uns_owenmag
-uns_owenmag_T
-uns_f1_smg_mag
-uns_stenmag
-uns_stenmag_T
-uns_mk4mag
-uns_mk4mag_T
-uns_m50mag
-uns_m45mag
-uns_m45mag_T
-uns_m45mag_NT
-uns_thompsonmag_20
-uns_thompsonmag_30
-uns_thompsonmag_20_T
-uns_thompsonmag_30_T
-uns_thompsonmag_20_NT
-uns_thompsonmag_30_NT
-uns_m3a1mag
-uns_m3a1mag_T
-uns_12gaugemag_4
-uns_12gaugemag_4f
-uns_12gaugemag_6
-uns_12gaugemag_6f
-uns_m870mag
-uns_20Rnd_556x45_Stanag
-uns_30Rnd_556x45_Stanag
-uns_20Rnd_556x45_Stanag_T
-uns_30Rnd_556x45_Stanag_T
-uns_20Rnd_556x45_Stanag_NT
-uns_30Rnd_556x45_Stanag_NT
-uns_30Rnd_556x45_Stanag_xm177
-uns_30Rnd_556x45_Stanag_xm177_NT
-uns_30Rnd_556x45_Stanag_xm177_T
-uns_40Rnd_556x45_Stanag
-uns_40Rnd_556x45_Stanag_T
-uns_40Rnd_556x45_Stanag_NT
-uns_40Rnd_556x45_t223
-uns_40Rnd_556x45_t223_T
-uns_m63amag
-uns_m63abox
+uns_m3a1mag                                 { quality = 1; price = 100; sellPrice = 280; };
+uns_m3a1mag_T                               { quality = 1; price = 100; sellPrice = 280; };
+uns_12gaugemag_4                            { quality = 1; price = 100; sellPrice = 280; };
+uns_12gaugemag_4f                           { quality = 1; price = 100; sellPrice = 280; };
+uns_12gaugemag_6                            { quality = 1; price = 100; sellPrice = 280; };
+uns_12gaugemag_6f                           { quality = 1; price = 100; sellPrice = 280; };
+uns_m870mag                                 { quality = 1; price = 100; sellPrice = 280; };
+uns_20Rnd_556x45_Stanag                     { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag                     { quality = 1; price = 100; sellPrice = 280; };
+uns_20Rnd_556x45_Stanag_T                   { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag_T                   { quality = 1; price = 100; sellPrice = 280; };
+uns_20Rnd_556x45_Stanag_NT                  { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag_NT                  { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag_xm177               { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag_xm177_NT            { quality = 1; price = 100; sellPrice = 280; };
+uns_30Rnd_556x45_Stanag_xm177_T             { quality = 1; price = 100; sellPrice = 280; };
+uns_40Rnd_556x45_Stanag                     { quality = 1; price = 100; sellPrice = 280; };
+uns_40Rnd_556x45_Stanag_T                   { quality = 1; price = 100; sellPrice = 280; };
+uns_40Rnd_556x45_Stanag_NT                  { quality = 1; price = 100; sellPrice = 280; };
+uns_40Rnd_556x45_t223                       { quality = 1; price = 100; sellPrice = 280; };
+uns_40Rnd_556x45_t223_T                     { quality = 1; price = 100; sellPrice = 280; };
+uns_m63amag                                 { quality = 1; price = 100; sellPrice = 280; };
+uns_m63abox                                 { quality = 1; price = 100; sellPrice = 280; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // Sniper
@@ -163,9 +142,26 @@ uns_m3a1
 ///////////////////////////////////////////////////////////////////////////////
 // Sub Machine Guns Ammo
 ///////////////////////////////////////////////////////////////////////////////
-
-
-
+uns_mac10mag                                { quality = 1; price = 100; sellPrice = 280; };
+uns_32Rnd_uzi                               { quality = 1; price = 100; sellPrice = 280; };
+uns_32Rnd_uzi_pa                            { quality = 1; price = 100; sellPrice = 280; };
+uns_owenmag                                 { quality = 1; price = 100; sellPrice = 280; };
+uns_owenmag_T                               { quality = 1; price = 100; sellPrice = 280; };
+uns_f1_smg_mag                              { quality = 1; price = 100; sellPrice = 280; };
+uns_stenmag                                 { quality = 1; price = 100; sellPrice = 280; };
+uns_stenmag_T                               { quality = 1; price = 100; sellPrice = 280; };
+uns_mk4mag                                  { quality = 1; price = 100; sellPrice = 280; };
+uns_mk4mag_T                                { quality = 1; price = 100; sellPrice = 280; };
+uns_m50mag                                  { quality = 1; price = 100; sellPrice = 280; };
+uns_m45mag                                  { quality = 1; price = 100; sellPrice = 280; };
+uns_m45mag_T                                { quality = 1; price = 100; sellPrice = 280; };
+uns_m45mag_NT                               { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_20                          { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_30                          { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_20_T                        { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_30_T                        { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_20_NT                       { quality = 1; price = 100; sellPrice = 280; };
+uns_thompsonmag_30_NT                       { quality = 1; price = 100; sellPrice = 280; };
 
 ///////////////////////////////////////////////////////////////////////////////
 // LMG

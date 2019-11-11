@@ -164,7 +164,6 @@
 
 > USattachments
 15, uns_o_Unertl8x // Unsung Winchester Model 70 Scope
-15, uns_bp_M60 // Unsung M-60 MG Bipod
 15, uns_s_M16 // Unsung M16 Suppressor
 15, uns_s_M14 // Unsung M14 Suppressor
 15, uns_o_LeatherwoodART // Unsung M16/M14 Letherwood Scope
@@ -438,13 +437,11 @@
 15, UNS_Alice_6	// Unsung Alice Pack 6
 15, UNS_ARMY_RTO	// Unsung ARMY PRC-25 1
 15, UNS_SF_RTO	// Unsung ARMY PRC-25 2
-15, UNS_ARMY_MED	// Unsung ARMY Medic Pack
 15, UNS_USMC_E1	// Unsung USMC Pack/Etool
 15, UNS_USMC_E2	// Unsung USMC Pack
 15, UNS_USMC_R1	// Unsung USMC Ruck/Canteen
 15, UNS_USMC_R2	// Unsung USMC Ruck/ETool
 15, UNS_USMC_R3	// Unsung USMC Ruck
-15, UNS_USMC_MED	// Unsung USMC Medic Pack
 15, UNS_USMC_RTO	// Unsung USMC PRC-10
 15, UNS_TROP_R1	// Unsung Tropical Rucksack 1
 15, UNS_TROP_R2	// Unsung Tropical Rucksack 2

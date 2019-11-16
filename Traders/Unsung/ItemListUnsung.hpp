@@ -1560,8 +1560,6 @@ class uns_m1carbine_pouch     				{ quality = 1; price = 900; };
 class uns_m1carbine_pouch_gl    			{ quality = 1; price = 900; };
 class uns_m2carbine_shorty      			{ quality = 1; price = 900; };
 class uns_m2carbine     							{ quality = 1; price = 900; };
-class uns_m2carbine_bayo      				{ quality = 1; price = 900; };
-class uns_m2carbine_sniper    				{ quality = 1; price = 900; };
 class uns_m2carbine_gl      					{ quality = 1; price = 900; };
 class uns_m1garand      							{ quality = 1; price = 900; };
 class uns_m1garand_gl     						{ quality = 1; price = 900; };

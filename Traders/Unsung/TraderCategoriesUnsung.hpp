@@ -1641,8 +1641,6 @@ class UnsungSniperRifles
     "uns_m1carbine_pouch_gl",
     "uns_m2carbine_shorty",
     "uns_m2carbine",
-    "uns_m2carbine_bayo",
-    "uns_m2carbine_sniper",
     "uns_m2carbine_gl",
     "uns_m1garand",
     "uns_m1garand_gl",

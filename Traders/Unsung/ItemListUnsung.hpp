@@ -1622,7 +1622,6 @@ class uns_32Rnd_uzi      							{ quality = 1; price = 10; };
 class uns_stenmag       							{ quality = 1; price = 10; };
 class uns_thompsonmag_30      				{ quality = 1; price = 10; };
 class uns_m3a1mag      								{ quality = 1; price = 10; };
-class uns_k50mag      								{ quality = 1; price = 10; };
 class uns_30Rnd_kurtz_stg     				{ quality = 1; price = 10; };
 class uns_m2carbinemag      					{ quality = 1; price = 10; };
 class uns_m2carbinemag_T      				{ quality = 1; price = 10; };

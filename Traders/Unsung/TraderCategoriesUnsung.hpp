@@ -1718,7 +1718,6 @@ class UnsungAmmunition
     "uns_stenmag",
     "uns_thompsonmag_30",
     "uns_m3a1mag",
-    "uns_k50mag",
     "uns_30Rnd_kurtz_stg",
     "uns_m2carbinemag",
     "uns_m2carbinemag_T",

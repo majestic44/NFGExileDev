@@ -1714,7 +1714,7 @@ class uns_250Rnd_m1919      					{ quality = 1; price = 10; };
 class uns_barmag_NT      							{ quality = 1; price = 10; };
 class uns_m60mag      								{ quality = 1; price = 10; };
 class uns_ex41mag      								{ quality = 1; price = 10; };
-class uns_1Rnd_HEDP_M433     					{ quality = 1; price = 10; };
+class Uns_1Rnd_HEDP_M433     					{ quality = 1; price = 10; };
 class Uns_1Rnd_HE_M381      					{ quality = 1; price = 10; };
 class Uns_1Rnd_HE_M406      					{ quality = 1; price = 10; };
 class uns_1Rnd_AB_M397      					{ quality = 1; price = 10; };

@@ -1810,7 +1810,7 @@ class UnsungAmmunition
     "uns_barmag_NT",
     "uns_m60mag",
     "uns_ex41mag",
-    "uns_1Rnd_HEDP_M433",
+    "Uns_1Rnd_HEDP_M433",
     "Uns_1Rnd_HE_M381",
     "Uns_1Rnd_HE_M406",
     "uns_1Rnd_AB_M397",

@@ -417,35 +417,38 @@
 15, UNS_DCCR_GTS // Unsung VC Uniforms
 15, UNS_CIV_U // Unsung VC Uniforms
 
-
 > MilitaryBackpacks
-15, UNS_Alice_F1	// Unsung USMC Alice Pack/Frame 1
-15, UNS_Alice_F2	// Unsung USMC Alice Pack/Frame 2
-15, UNS_Alice_F3	// Unsung ARMY Alice Pack/Frame 1
-15, UNS_Alice_F4	// Unsung ARMY Alice Pack/Frame 2
-15, UNS_Alice_F5	// Unsung ARMY Alice Pack/Frame 3
-15, UNS_Alice_F6	// Unsung ARMY Alice Pack/Frame 4
-15, UNS_Alice_F7	// Unsung ARMY Alice Pack/Frame 5
-15, UNS_Alice_F8	// Unsung ARMY Alice Pack/Frame 6
-15, UNS_Alice_F9	// Unsung ARMY Alice Pack/Frame 7
-15, UNS_Alice_FR	// Unsung USMC Alice Pack/Frame RTO
-15, UNS_Alice_1	// Unsung Alice Pack 1
-15, UNS_Alice_2	// Unsung Alice Pack 2
-15, UNS_Alice_3	// Unsung Alice Pack 3
-15, UNS_Alice_4	// Unsung Alice Pack 4
-15, UNS_Alice_5	// Unsung Alice Pack 5
-15, UNS_Alice_6	// Unsung Alice Pack 6
-15, UNS_ARMY_RTO	// Unsung ARMY PRC-25 1
-15, UNS_SF_RTO	// Unsung ARMY PRC-25 2
-15, UNS_USMC_E1	// Unsung USMC Pack/Etool
-15, UNS_USMC_E2	// Unsung USMC Pack
-15, UNS_USMC_R1	// Unsung USMC Ruck/Canteen
-15, UNS_USMC_R2	// Unsung USMC Ruck/ETool
-15, UNS_USMC_R3	// Unsung USMC Ruck
-15, UNS_USMC_RTO	// Unsung USMC PRC-10
-15, UNS_TROP_R1	// Unsung Tropical Rucksack 1
-15, UNS_TROP_R2	// Unsung Tropical Rucksack 2
-15, UNS_TROP_R3	// Unsung Tropical Rucksack 3
+15, UNS_BA22_Para // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F1  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F2  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_FR  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_SOG2  // Unsung US Backpaks 220cap and below.
+15, UNS_ARMY_RTO  // Unsung US Backpaks 220cap and below.
+15, UNS_ARMY_RTO2 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_RTO  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_MED2  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_1 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_2 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_3 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_4 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_5 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F3  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F4  // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F10 // Unsung US Backpaks 220cap and below.
+15, UNS_Alice_F11 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_E1 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_E2 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_E3 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_E4 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_E5 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_R1 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_R2 // Unsung US Backpaks 220cap and below.
+15, UNS_USMC_R3 // Unsung US Backpaks 220cap and below.
+15, UNS_ANZAC_RUCK  // Unsung US Backpaks 220cap and below.
+15, UNS_TROP_R1 // Unsung US Backpaks 220cap and below.
+15, UNS_TROP_R2 // Unsung US Backpaks 220cap and below.
+15, UNS_TROP_R3 // Unsung US Backpaks 220cap and below.
+15, uns_sas_alicepack_1 // Unsung US Backpaks 220cap and below.
 
 > VcBackpacks
 15, UNS_NVA_RTO // Unsung VC Backpacks

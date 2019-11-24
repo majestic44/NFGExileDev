@@ -1099,9 +1099,9 @@ class UNS_BA22_Para										{ quality = 1; price = 200; };
 class UNS_Alice_F1										{ quality = 1; price = 200; };
 class UNS_Alice_F2										{ quality = 1; price = 200; };
 class UNS_Alice_FR										{ quality = 1; price = 200; };
-class UNS_Alice_SOG										{ quality = 1; price = 500; };
+//class UNS_Alice_SOG										{ quality = 1; price = 500; }; (Removed due to spawning with Explosives.)
 class UNS_Alice_SOG2									{ quality = 1; price = 500; };
-class UNS_Alice_LRP1									{ quality = 1; price = 600; };
+//class UNS_Alice_LRP1									{ quality = 1; price = 600; }; (Removed due to spawning with Explosives.)
 class UNS_Alice_LRP2									{ quality = 1; price = 600; };
 class UNS_ARMY_RTO										{ quality = 1; price = 200; };
 class UNS_ARMY_RTO2										{ quality = 1; price = 200; };
@@ -1324,12 +1324,22 @@ class UNS_Goggles_NVA									{ quality = 1; price = 50; };
 // Unsung Bino
 //////////////////////////////////////////////////////////////////////
 class uns_ANPVS2                  		{ quality = 1; price = 1000; };
-class uns_binocular_army              { quality = 1; price = 1000; };
+//class uns_binocular_army              { quality = 1; price = 1000; }; (Removed due to not working.)
 class uns_binocular_navy              { quality = 1; price = 1000; };
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Bipods
 //////////////////////////////////////////////////////////////////////
+class uns_bp_M60                      { quality = 1; price = 50; };
+class uns_bp_M63                      { quality = 1; price = 50; };
+class uns_bp_M63a                     { quality = 1; price = 50; };
+class uns_bp_DP28                     { quality = 1; price = 50; };
+class uns_bp_MG42                     { quality = 1; price = 50; };
+class uns_bp_PKM                      { quality = 1; price = 50; };
+class uns_bp_RPO                      { quality = 1; price = 50; };
+class uns_bp_RPK                      { quality = 1; price = 50; };
+class uns_bp_RPK40                    { quality = 1; price = 50; };
+class uns_bp_BAR                      { quality = 1; price = 50; };
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Supressors
@@ -1401,42 +1411,44 @@ class Uns_1Rnd_22mm_smoke     				{ quality = 1; price = 100; };
 //////////////////////////////////////////////////////////////////////
 // Unsung Explosives
 //////////////////////////////////////////////////////////////////////
-class PipeBomb												{ quality = 1; price = 500; };
+class PipeBomb											{ quality = 1; price = 500; };
 class uns_m308gren										{ quality = 1; price = 150; };
-class uns_m14gren											{ quality = 1; price = 150; };
-class uns_m34gren											{ quality = 1; price = 150; };
-class uns_m67gren											{ quality = 1; price = 150; };
-class uns_m61gren											{ quality = 1; price = 150; };
-class uns_f1gren											{ quality = 1; price = 150; };
+class uns_m14gren										{ quality = 1; price = 150; };
+class uns_m34gren										{ quality = 1; price = 150; };
+class uns_m67gren										{ quality = 1; price = 150; };
+class uns_m61gren										{ quality = 1; price = 150; };
+class uns_f1gren										{ quality = 1; price = 150; };
 class uns_rg42gren										{ quality = 1; price = 150; };
-class uns_t67gren											{ quality = 1; price = 150; };
+class uns_t67gren										{ quality = 1; price = 150; };
 class uns_rgd33gren										{ quality = 1; price = 150; };
 class uns_rgd5gren										{ quality = 1; price = 150; };
-class uns_traps_flare_mag             { quality = 1; price = 400; };
-class uns_traps_m7_mag                { quality = 1; price = 1300; };
-class uns_traps_nade_mag              { quality = 1; price = 1300; };
-class uns_traps_nade_mag3             { quality = 1; price = 1300; };
-class uns_traps_nade_mag7             { quality = 1; price = 1300; };
-class uns_traps_claymore_mag          { quality = 1; price = 900; };
-class uns_traps_claymore_remote_mag   { quality = 1; price = 900; };
-class uns_traps_nade_mag2             { quality = 1; price = 1300; };
-class uns_traps_nade_mag4             { quality = 1; price = 1300; };
-class uns_traps_nade_mag5             { quality = 1; price = 1300; };
-class uns_traps_nade_mag6             { quality = 1; price = 1300; };
-class uns_traps_arty_mag              { quality = 1; price = 1100; };
-class uns_traps_punj1_mag             { quality = 1; price = 1100; };
-class uns_traps_punj2_mag             { quality = 1; price = 1300; };
-class uns_traps_punj4_mag             { quality = 1; price = 1100; };
-class uns_traps_punj5_mag             { quality = 1; price = 1100; };
+class uns_rkg3gren										{ quality = 1; price = 250; };
+class uns_traps_flare_mag           					{ quality = 1; price = 400; };
+class uns_traps_m7_mag              					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag            					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag3           					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag7           					{ quality = 1; price = 1300; };
+class uns_traps_claymore_mag        					{ quality = 1; price = 900; };
+class uns_traps_claymore_remote_mag 					{ quality = 1; price = 900; };
+class uns_traps_nade_mag2           					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag4           					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag5           					{ quality = 1; price = 1300; };
+class uns_traps_nade_mag6           					{ quality = 1; price = 1300; };
+class uns_traps_arty_mag            					{ quality = 1; price = 1100; };
+class uns_traps_punj1_mag           					{ quality = 1; price = 1100; };
+class uns_traps_punj2_mag           					{ quality = 1; price = 1300; };
+class uns_traps_punj4_mag           					{ quality = 1; price = 1100; };
+class uns_traps_punj5_mag           					{ quality = 1; price = 1100; };
+
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Pistols
 //////////////////////////////////////////////////////////////////////
-class uns_mkvFlarePistol      				{ quality = 1; price = 100; };
+class uns_mkvFlarePistol      						{ quality = 1; price = 100; };
 class uns_MX991_r     								{ quality = 1; price = 100; };
 class uns_MX991_w     								{ quality = 1; price = 100; };
 class uns_MX991_g     								{ quality = 1; price = 100; };
-class uns_MX991_m1911     						{ quality = 1; price = 100; };
+class uns_MX991_m1911     								{ quality = 1; price = 100; };
 class uns_Ruger     									{ quality = 1; price = 100; };
 class uns_ppk     										{ quality = 1; price = 100; };
 class uns_38spec      								{ quality = 1; price = 100; };
@@ -1746,8 +1758,8 @@ class uns_ppshmag_NT        					{ quality = 1; price = 10; };
 //////////////////////////////////////////////////////////////////////
 // Unsung Tools
 //////////////////////////////////////////////////////////////////////
-class uns_item_zippo								 { quality = 1; price = 100; };
-class UNS_TrapKit										 { quality = 1; price = 300; };
+class uns_item_zippo						{ quality = 1; price = 100; };
+class UNS_TrapKit							{ quality = 1; price = 300; };
 //////////////////////////////////////////////////////////////////////
 // Unsung FirstAid
 //////////////////////////////////////////////////////////////////////
@@ -1820,7 +1832,7 @@ class uns_Mi8T_VPAF                  { quality = 3; price = 25000; };
 //////////////////////////////////////////////////////////////////////
 // Armed Choppers
 //////////////////////////////////////////////////////////////////////
-class uns_H13_gunship_Army					 { quality = 3; price = 26000; };
+class uns_H13_gunship_Army			 { quality = 3; price = 26000; };
 class uns_ch47_m60_army              { quality = 3; price = 30000; };
 class uns_h21c_mg                    { quality = 3; price = 28000; };
 class uns_oh6_m60                    { quality = 3; price = 25000; };

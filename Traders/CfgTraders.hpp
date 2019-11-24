@@ -24,7 +24,7 @@
 			"UnsungAntiTank",
 			"UnsungStaticMGs"
 
-
+			
 
 		};
 	};
@@ -55,7 +55,6 @@
 		categories[] =
 		{
 			"FirstAid",
-		//	"UnsungFirstAid", (No Unsung working med items.)
 			"Drinks",
 			"Food",
 			"NonVeganFood"
@@ -75,7 +74,7 @@
 			"Tools",
 			"UnsungTools",
 			"ExtendedBaseMod"
-
+		
 		};
 	};
 
@@ -94,7 +93,7 @@
 			"UnsungAPCs",
 			"UnsungTanks",
 			"UnsungAAVehicles"
-
+			
 		};
 	};
 

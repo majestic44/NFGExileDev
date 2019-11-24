@@ -1114,9 +1114,9 @@ class UnsungBackpacks
     "UNS_Alice_F1",
     "UNS_Alice_F2",
     "UNS_Alice_FR",
-    "UNS_Alice_SOG",
+    //"UNS_Alice_SOG", (Removed due to spawning with Explosives.)
     "UNS_Alice_SOG2",
-    "UNS_Alice_LRP1",
+    //"UNS_Alice_LRP1", (Removed due to spawning with Explosives.)
     "UNS_Alice_LRP2",
     "UNS_ARMY_RTO",
     "UNS_ARMY_RTO2",
@@ -1349,7 +1349,7 @@ class UnsungBino
   items[] =
   {
     "uns_ANPVS2",
-    "uns_binocular_army",
+    //"uns_binocular_army", (Removed due to not working.)
     "uns_binocular_navy"
   };
 };
@@ -1360,7 +1360,16 @@ class UnsungBipodAttachments
   icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
   items[] =
   {
-
+    "uns_bp_M60",
+    "uns_bp_M63",
+    "uns_bp_M63a",
+    "uns_bp_DP28",
+    "uns_bp_MG42",
+    "uns_bp_PKM",
+    "uns_bp_RPO",
+    "uns_bp_RPK",
+    "uns_bp_RPK40",
+    "uns_bp_BAR"
   };
 };
 
@@ -1468,6 +1477,7 @@ class UnsungExplosives
     "uns_t67gren",
     "uns_rgd33gren",
     "uns_rgd5gren",
+	"uns_rkg3gren",
     "uns_traps_flare_mag",
     "uns_traps_m7_mag",
     "uns_traps_nade_mag",

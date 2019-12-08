@@ -1349,7 +1349,7 @@ class UnsungBino
   items[] =
   {
     "uns_ANPVS2",
-    //"uns_binocular_army", (Removed due to not working.)
+    "binocular",
     "uns_binocular_navy"
   };
 };

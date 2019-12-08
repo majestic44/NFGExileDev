@@ -22,7 +22,15 @@
 			"UnsungSmoke",
 			"UnsungExplosives",
 			"UnsungAntiTank",
-			"UnsungStaticMGs"
+			"UnsungStaticMGs",
+			"PointerAttachments",
+			"BipodAttachments",
+			"OpticAttachments",
+			"Ammunition",
+			"Flares",
+			"Smokes",
+			"Explosives",
+			"ExileWeapons"
 
 			
 
@@ -41,7 +49,11 @@
 			"UnsungUniforms",
 			"UnsungVests",
 			"UnsungBackpacks",
-			"UnsungHeadgear"
+			"UnsungHeadgear",
+			"Clothes",
+			"Headgear",
+			"Backpacks",
+			"Navigation"
 		};
 	};
 
@@ -57,7 +69,7 @@
 			"FirstAid",
 			"Drinks",
 			"Food",
-			"NonVeganFood"
+			"Meat"
 		};
 	};
 
@@ -92,7 +104,9 @@
 			"UnsungLogPac",
 			"UnsungAPCs",
 			"UnsungTanks",
-			"UnsungAAVehicles"
+			"UnsungAAVehicles",
+			"Cars",
+			"Trucks"
 			
 		};
 	};
@@ -112,7 +126,8 @@
 			"UnsungPlanes",
 			"UnsungCasPlanes",
 			"UnsungCapPlanes",
-			"UnsungBmbPlanes"
+			"UnsungBmbPlanes",
+			"Choppers"
 		};
 	};
 
@@ -137,7 +152,7 @@
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"Diving"
+			
 		};
 	};
 

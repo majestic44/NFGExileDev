@@ -1323,9 +1323,9 @@ class UNS_Goggles_NVA									{ quality = 1; price = 50; };
 //////////////////////////////////////////////////////////////////////
 // Unsung Bino
 //////////////////////////////////////////////////////////////////////
-class uns_ANPVS2                  		{ quality = 1; price = 1000; };
-//class uns_binocular_army              { quality = 1; price = 1000; }; (Removed due to not working.)
-class uns_binocular_navy              { quality = 1; price = 1000; };
+class uns_ANPVS2                  		{ quality = 1; price = 2200; };
+class binocular              			{ quality = 1; price = 500; }; 
+class uns_binocular_navy              	{ quality = 1; price = 500; };
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Bipods

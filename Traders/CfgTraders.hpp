@@ -32,7 +32,7 @@
 			"Explosives",
 			"ExileWeapons"
 
-			
+
 
 		};
 	};
@@ -86,7 +86,7 @@
 			"Tools",
 			"UnsungTools",
 			"ExtendedBaseMod"
-		
+
 		};
 	};
 
@@ -107,7 +107,7 @@
 			"UnsungAAVehicles",
 			"Cars",
 			"Trucks"
-			
+
 		};
 	};
 
@@ -152,7 +152,7 @@
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			
+
 		};
 	};
 

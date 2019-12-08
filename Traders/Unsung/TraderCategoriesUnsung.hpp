@@ -1360,16 +1360,7 @@ class UnsungBipodAttachments
   icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
   items[] =
   {
-    "uns_bp_M60",
-    "uns_bp_M63",
-    "uns_bp_M63a",
-    "uns_bp_DP28",
-    "uns_bp_MG42",
-    "uns_bp_PKM",
-    "uns_bp_RPO",
-    "uns_bp_RPK",
-    "uns_bp_RPK40",
-    "uns_bp_BAR"
+    
   };
 };
 
@@ -1411,8 +1402,7 @@ class UnsungOptics
     "uns_o_ANPVS2_M16",
     "uns_o_ANPVS2_M14",
     "uns_o_Akatihi4x",
-    "uns_o_APXSOM",
-    "uns_o_M63"
+    "uns_o_APXSOM"
   };
 };
 

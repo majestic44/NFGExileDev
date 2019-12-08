@@ -1324,22 +1324,13 @@ class UNS_Goggles_NVA									{ quality = 1; price = 50; };
 // Unsung Bino
 //////////////////////////////////////////////////////////////////////
 class uns_ANPVS2                  		{ quality = 1; price = 2200; };
-class binocular              			{ quality = 1; price = 500; }; 
+class binocular              			{ quality = 1; price = 500; };
 class uns_binocular_navy              	{ quality = 1; price = 500; };
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Bipods
 //////////////////////////////////////////////////////////////////////
-class uns_bp_M60                      { quality = 1; price = 50; };
-class uns_bp_M63                      { quality = 1; price = 50; };
-class uns_bp_M63a                     { quality = 1; price = 50; };
-class uns_bp_DP28                     { quality = 1; price = 50; };
-class uns_bp_MG42                     { quality = 1; price = 50; };
-class uns_bp_PKM                      { quality = 1; price = 50; };
-class uns_bp_RPO                      { quality = 1; price = 50; };
-class uns_bp_RPK                      { quality = 1; price = 50; };
-class uns_bp_RPK40                    { quality = 1; price = 50; };
-class uns_bp_BAR                      { quality = 1; price = 50; };
+
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Supressors
@@ -1372,7 +1363,7 @@ class uns_o_ANPVS2_M16								{ quality = 1; price = 1000; };
 class uns_o_ANPVS2_M14								{ quality = 1; price = 1000; };
 class uns_o_Akatihi4x									{ quality = 1; price = 300; };
 class uns_o_APXSOM										{ quality = 1; price = 300; };
-class uns_o_M63												{ quality = 1; price = 300; };
+//class uns_o_M63												{ quality = 1; price = 300; };
 
 //////////////////////////////////////////////////////////////////////
 // Unsung Flares

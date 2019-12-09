@@ -202,9 +202,9 @@
 15, uns_m3a1mag
 15, uns_m3a1mag_T
 15, uns_12gaugemag_4
-15, uns_12gaugemag_4f
+//15, uns_12gaugemag_4f (Removed Over Powered Ammo.)
 15, uns_12gaugemag_6
-15, uns_12gaugemag_6f
+//15, uns_12gaugemag_6f (Removed Over Powered Ammo.)
 15, uns_m14mag
 15, uns_m14mag_T
 15, uns_m14mag_NT

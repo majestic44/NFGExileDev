@@ -971,7 +971,7 @@ class UNS_ARMY_BDU_65														{ quality = 1; price = 280; };
 class UNS_ARMY_BDU_68														{ quality = 1; price = 280; };
 class UNS_TIGER_BDU															{ quality = 1; price = 420; };
 class UNS_TIGER2_BDU														{ quality = 1; price = 420; };
-class UNS_TIGER3_BD															{ quality = 1; price = 420; };
+class UNS_TIGER3_BDU															{ quality = 1; price = 420; };
 class UNS_DUCK_BDU															{ quality = 1; price = 280; };
 class UNS_USMC_BDU_65														{ quality = 1; price = 280; };
 class UNS_USMC_BDU_65_2														{ quality = 1; price = 280; };

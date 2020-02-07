@@ -1144,7 +1144,7 @@ class uns_sas_alicepack_4							{ quality = 1; price = 200; };
 class uns_sas_alicepack_RTO						{ quality = 1; price = 200; };
 class UNS_NVA_RTO											{ quality = 1; price = 200; };
 class UNS_NVA_RPG											{ quality = 1; price = 200; };
-class UNS_NVA_RPG2										{ quality = 1; price = 200; };
+//class UNS_NVA_RPG2										{ quality = 1; price = 200; };
 class UNS_NVA_R1											{ quality = 1; price = 200; };
 class UNS_NVA_R3											{ quality = 1; price = 200; };
 class UNS_NVA_RC											{ quality = 1; price = 200; };

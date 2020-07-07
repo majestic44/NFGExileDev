@@ -9,4 +9,4 @@ The documents found here are purely development files needed for Arma 3 Exile se
 
 ### Thanks
 
-![](https://i.imgur.com/Kf7mAQj.png)
+![](https://i.imgur.com/TTnnJHR.png)
